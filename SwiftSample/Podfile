@@ -1,0 +1,10 @@
+source 'https://github.com/CocoaPods/Specs.git'
+
+target 'SwiftSample' do
+
+  use_frameworks!
+  platform :ios, '13.0'
+
+  pod 'Equativ-Display-SDK', '~> 8.0.0'
+
+end
