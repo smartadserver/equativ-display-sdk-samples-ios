@@ -31,7 +31,9 @@ FOUNDATION_EXPORT const unsigned char SASDisplayKitVersionString[];
 #import <SASDisplayKit/SASAdError.h>
 #import <SASDisplayKit/SASAdInfo.h>
 #import <SASDisplayKit/SASAdProgrammaticInfo.h>
+#import <SASDisplayKit/SASParallaxMargins.h>
 
 // Utils
 #import <SASDisplayKit/SASConfiguration.h>
+#import <SASDisplayKit/SASSecondaryImplementationInfo.h>
 #import <SASDisplayKit/SASFrameworkInfo.h>

@@ -45,6 +45,17 @@ NS_ASSUME_NONNULL_BEGIN
  */
 - (void)bannerViewClicked:(SASBannerView *)bannerView;
 
+/**
+ Called when the banner requests to be closed.
+ 
+ @note Some ad formats might want to close the banner ad by themself (for instance some video ads). It is
+ the app responsability to actually close the banner ad, aka to remove it from the views' hierarchy. If the
+ app does nothing or does not implement this delegate, the ad will not be closed.
+ 
+ @param bannerView The instance of SASBannerView requesting to be closed.
+ */
+- (void)bannerViewDidRequestClose:(SASBannerView *)bannerView;
+
 @end
 
 NS_ASSUME_NONNULL_END

@@ -16,7 +16,7 @@ class Constants {
     static let bannerInTableViewSiteId                      = 104808
     static let bannerInTableViewPageId                      = 663262
     static let bannerInTableViewFormatId                    = 15140
-    static let bannerInTableViewKeywordTargeting: String?   = "sdk8"
+    static let bannerInTableViewKeywordTargeting: String?   = "sdk8-parallax-video"
     
     static let interstitialSiteId                           = 104808
     static let interstitialPageId                           = 663264

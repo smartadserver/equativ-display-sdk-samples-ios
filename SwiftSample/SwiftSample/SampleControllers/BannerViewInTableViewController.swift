@@ -44,6 +44,12 @@ class BannerViewInTableViewController : UITableViewController, SASBannerViewDele
         // Adding the current view controller as modal parent view controller:
         // this is the controller the SDK will use if the ad needs to be expanded in a modal state
         bannerView.modalParentViewController = self
+        
+        // In this integration, the placement used is a parallax placement.
+        // To properly setup parallax, please check if you need to add margin to the SASBannerView to
+        // avoid having the parallax ad being rendered below any UI element such as the navigation bar
+        // for example.
+        // bannerView.parallaxMargins = SASParallaxMargins(left: <LEFT_MARGIN>, top: <TOP_MARGIN>, right: <RIGHT_MARGIN>, bottom: <BOTTOM_MARGIN>)
     }
     
     private func loadBannerView() {
@@ -66,6 +72,11 @@ class BannerViewInTableViewController : UITableViewController, SASBannerViewDele
         // deliver an ad from a chosen format).
         // DON'T FORGET TO REVERT TO THE ACTUAL PLACEMENT BEFORE SHIPPING THE APP!
         
+        // Parallax test placement:
+        // let adPlacement = SASAdPlacement(testAd: .bannerParallaxHTML)
+        // let adPlacement = SASAdPlacement(testAd: .bannerParallaxVideo)
+        
+        // Other banners test placement:
         // let adPlacement = SASAdPlacement(testAd: .bannerHTML)
         // let adPlacement = SASAdPlacement(testAd: .bannerVideo)
         // let adPlacement = SASAdPlacement(testAd: .bannerMRAIDExpand)

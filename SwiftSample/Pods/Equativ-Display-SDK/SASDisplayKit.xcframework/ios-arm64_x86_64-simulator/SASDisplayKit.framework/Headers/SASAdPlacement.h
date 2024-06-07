@@ -7,10 +7,11 @@
 //
 
 #import <Foundation/Foundation.h>
-@class SASSellerDefinedAudience;
-@class SASSellerDefinedContent;
 
 NS_ASSUME_NONNULL_BEGIN
+
+@class SASSellerDefinedAudience;
+@class SASSellerDefinedContent;
 
 /// Contains all available test placements.
 typedef NS_ENUM(NSInteger, SASAdPlacementTest) {
@@ -25,6 +26,12 @@ typedef NS_ENUM(NSInteger, SASAdPlacementTest) {
     
     /// A placement that will return a Video banner ad.
     SASAdPlacementTestBannerVideo,
+    
+    /// A placement that will return a Parallax banner with an HTML creative.
+    SASAdPlacementTestBannerParallaxHTML,
+    
+    /// A placement that will return a Parallax banner with a video creative.
+    SASAdPlacementTestBannerParallaxVideo,
     
 #pragma mark - Interstitial ads
     

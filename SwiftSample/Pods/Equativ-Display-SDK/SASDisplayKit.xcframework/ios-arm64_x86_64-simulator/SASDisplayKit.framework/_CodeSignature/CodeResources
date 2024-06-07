@@ -22,11 +22,11 @@
 		</data>
 		<key>Headers/SASAdPlacement.h</key>
 		<data>
-		4QLfhGlOI+wveqNTrOHE2MWEt5A=
+		jjoCBdhHSAwYD6TCINi748/ZYS4=
 		</data>
 		<key>Headers/SASAdProgrammaticInfo.h</key>
 		<data>
-		y22IgSlo7874mEqeJzH5rFYJcYU=
+		67rZSaWm4UaCRPCrxdLzttRvh/o=
 		</data>
 		<key>Headers/SASAdStatus.h</key>
 		<data>
@@ -34,19 +34,19 @@
 		</data>
 		<key>Headers/SASBannerView.h</key>
 		<data>
-		QPicH3O70iJxJ8NBbmbYEE3oYJQ=
+		nkMyQQ+tMpGRr+sZE32xG4SN8RE=
 		</data>
 		<key>Headers/SASBannerViewDelegate.h</key>
 		<data>
-		VahvKgNBnbpp+zWAur0E22RPojA=
+		zunHN1sD5gWCxST5uRkqvgzBJUI=
 		</data>
 		<key>Headers/SASConfiguration.h</key>
 		<data>
-		G79QCTR52YGhtmV9SiLZrBVkyIg=
+		VRGZL0chxwUoFvSQYakgDYdgZ/s=
 		</data>
 		<key>Headers/SASDisplayKit.h</key>
 		<data>
-		l8CDFUeNL32s5Uk7HUOuyTr7dsA=
+		jh5TSuKA6V08Jd349kHnvLOBKoM=
 		</data>
 		<key>Headers/SASFrameworkInfo.h</key>
 		<data>
@@ -59,6 +59,14 @@
 		<key>Headers/SASInterstitialManagerDelegate.h</key>
 		<data>
 		jzLAM/QQlQ2dZRSHccdYuLQyTTQ=
+		</data>
+		<key>Headers/SASParallaxMargins.h</key>
+		<data>
+		iFU2yHVAe24GsutLk3JgYbjI9jM=
+		</data>
+		<key>Headers/SASSecondaryImplementationInfo.h</key>
+		<data>
+		mqfc4Ul8fwDeGUYNqx4Zs5gWKAk=
 		</data>
 		<key>Headers/SASSellerDefinedAudience.h</key>
 		<data>
@@ -74,7 +82,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		oMNHuziwpiFNzBDRIlRd+SSDTgU=
+		7qKC/1qwi1qjrw0oKY6kGDMcq8I=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -82,7 +90,7 @@
 		</data>
 		<key>PrivacyInfo.xcprivacy</key>
 		<data>
-		pUY/3iAmbwQiZyVIjooJIQnYRB4=
+		LQ6qA68ajl6tZtXQWgUx7Ox4kb8=
 		</data>
 		<key>close-button.png</key>
 		<data>
@@ -281,14 +289,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			WdO58OzPhfq1qBIOcDxBxG5aV/AuFy/DgQoa+ygQ6/4=
+			r4qapRwLHcmckpA/4VvV4izwadeLKPCXL317B1b3PBM=
 			</data>
 		</dict>
 		<key>Headers/SASAdProgrammaticInfo.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Vcd+OnXAmoyF0Qu+PLAWCFN3k1J3ufCxy3uVP3AL2Jk=
+			+O3kC29Nym9T3nd6ply6OreJW4j6+wYv3rSWnzAF43Y=
 			</data>
 		</dict>
 		<key>Headers/SASAdStatus.h</key>
@@ -302,28 +310,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ZcqVOS0QQP7Z7q1jCeOSWq93Ciplrxdq/UXvLb/XW/g=
+			awhUDdeZgc/kjXOCIA/1hsD5PV+yp5Ia4bfR9Es7Qpk=
 			</data>
 		</dict>
 		<key>Headers/SASBannerViewDelegate.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			GlsqsFoKa9XQbx1JQU4W5hQCM0PKsFz6EXcga5oV4bw=
+			o1VAwznEIV8OXN3+wPC+nvFxI0bpsH+3yfo5V8LeYXc=
 			</data>
 		</dict>
 		<key>Headers/SASConfiguration.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			t5Ms51LfCmC1fVqCluQbS3eActFeoa1EtgOzIqPk2hs=
+			UFxnmiBVuF0w09lRYP4D+9LEvCJJsBpG9wYIaT3U8Pw=
 			</data>
 		</dict>
 		<key>Headers/SASDisplayKit.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			VRYF8FaoASMCnvo8htu7eRGZaGqvoFY7YztDmgihYK8=
+			apfAdmRPdVBH7Go3Y6mLZuAH71NEkzgAOf253TnFWsY=
 			</data>
 		</dict>
 		<key>Headers/SASFrameworkInfo.h</key>
@@ -345,6 +353,20 @@
 			<key>hash2</key>
 			<data>
 			WG0yuIBFV7krVvSyDSPuNsr+DTAvqxyck9/dJV4f9jg=
+			</data>
+		</dict>
+		<key>Headers/SASParallaxMargins.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			Oj341Ot1QjedZ+jtznsqbe2W/JV7w3ftikHZTpuMEmY=
+			</data>
+		</dict>
+		<key>Headers/SASSecondaryImplementationInfo.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			sKGPNC52x++pKFGM9PhduMgvjonL1r/cUkjcBEB3nRQ=
 			</data>
 		</dict>
 		<key>Headers/SASSellerDefinedAudience.h</key>
@@ -379,7 +401,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			tA0tWSFY/4fDf49MOk8LAWSeaI4dNDyfhaF5ww15WEg=
+			LDaajnV33e3s2yxWIWMe/HpbjiVU4dqy1BoxQCzsEpw=
 			</data>
 		</dict>
 		<key>close-button.png</key>
