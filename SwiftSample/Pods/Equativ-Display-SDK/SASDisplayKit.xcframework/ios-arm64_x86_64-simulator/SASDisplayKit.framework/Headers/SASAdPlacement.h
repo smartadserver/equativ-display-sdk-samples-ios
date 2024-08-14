@@ -86,6 +86,9 @@ typedef NS_ENUM(NSInteger, SASAdPlacementTest) {
 /// https://github.com/InteractiveAdvertisingBureau/openrtb/blob/master/supplychainobject.md#supplychain-for-non-openrtb-requests
 @property (strong, nullable) NSString *supplyChainObjectString;
 
+/// A dictionary of client side parameters that will be forwarded to the mediation adapters if necessary, nil otherwise.
+@property (strong, nullable) NSDictionary<NSString *, id> *mediationClientSideParameters;
+
 #pragma mark - Initializers
 
 /**

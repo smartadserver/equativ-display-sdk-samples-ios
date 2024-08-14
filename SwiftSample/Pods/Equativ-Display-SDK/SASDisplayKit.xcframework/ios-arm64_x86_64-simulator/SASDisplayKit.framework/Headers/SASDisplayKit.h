@@ -33,6 +33,12 @@ FOUNDATION_EXPORT const unsigned char SASDisplayKitVersionString[];
 #import <SASDisplayKit/SASAdProgrammaticInfo.h>
 #import <SASDisplayKit/SASParallaxMargins.h>
 
+// Mediation
+#import <SASDisplayKit/SASMediationBannerAdapter.h>
+#import <SASDisplayKit/SASMediationBannerAdapterDelegate.h>
+#import <SASDisplayKit/SASMediationInterstitialAdapter.h>
+#import <SASDisplayKit/SASMediationInterstitialAdapterDelegate.h>
+
 // Utils
 #import <SASDisplayKit/SASConfiguration.h>
 #import <SASDisplayKit/SASSecondaryImplementationInfo.h>

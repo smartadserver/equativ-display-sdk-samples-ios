@@ -4,6 +4,10 @@
 <dict>
 	<key>files</key>
 	<dict>
+		<key>Assets.car</key>
+		<data>
+		N0Ps4moiR2E3vk3va/9icN7Q2c0=
+		</data>
 		<key>Equativ-Display-SDK.podspec</key>
 		<data>
 		DscO23VGmESIuImIg/ShD31ZAT8=
@@ -18,11 +22,11 @@
 		</data>
 		<key>Headers/SASAdInfo.h</key>
 		<data>
-		e/sqwTayt9Q8xSQxuEND6wLif7c=
+		OVhPN9VmOLvcHFpvM+QwbO8kOYI=
 		</data>
 		<key>Headers/SASAdPlacement.h</key>
 		<data>
-		jjoCBdhHSAwYD6TCINi748/ZYS4=
+		bIWrRPHbSEanM0A57AECXH4Hn+U=
 		</data>
 		<key>Headers/SASAdProgrammaticInfo.h</key>
 		<data>
@@ -38,15 +42,19 @@
 		</data>
 		<key>Headers/SASBannerViewDelegate.h</key>
 		<data>
-		zunHN1sD5gWCxST5uRkqvgzBJUI=
+		LO5F0Q+DvVBZZXBww6CBSIYmgRA=
 		</data>
 		<key>Headers/SASConfiguration.h</key>
 		<data>
 		VRGZL0chxwUoFvSQYakgDYdgZ/s=
 		</data>
+		<key>Headers/SASDisplayKit-Swift.h</key>
+		<data>
+		fjTeSTNvX/OnWK8KJo2X05vz2FA=
+		</data>
 		<key>Headers/SASDisplayKit.h</key>
 		<data>
-		jh5TSuKA6V08Jd349kHnvLOBKoM=
+		G9Ty05Am3g5yeaQRqL8Jm3E7MwI=
 		</data>
 		<key>Headers/SASFrameworkInfo.h</key>
 		<data>
@@ -58,7 +66,23 @@
 		</data>
 		<key>Headers/SASInterstitialManagerDelegate.h</key>
 		<data>
-		jzLAM/QQlQ2dZRSHccdYuLQyTTQ=
+		XJMSPt1oKSxiIhkPJX0kmf/8gig=
+		</data>
+		<key>Headers/SASMediationBannerAdapter.h</key>
+		<data>
+		zwRM2wncVw5sG31y84rf6vVpaFI=
+		</data>
+		<key>Headers/SASMediationBannerAdapterDelegate.h</key>
+		<data>
+		dmH7YGraAi8St5pJaghDznv24iA=
+		</data>
+		<key>Headers/SASMediationInterstitialAdapter.h</key>
+		<data>
+		MYkvzyAnPnZbOR0JouV+sq/Zdnw=
+		</data>
+		<key>Headers/SASMediationInterstitialAdapterDelegate.h</key>
+		<data>
+		5e3DfT8YPNbklcbtl6S7ZZ6aXQo=
 		</data>
 		<key>Headers/SASParallaxMargins.h</key>
 		<data>
@@ -82,27 +106,71 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		7qKC/1qwi1qjrw0oKY6kGDMcq8I=
+		vaG6/ZEgTnSgU5O+sbjj7TC2h8Y=
+		</data>
+		<key>Modules/SASDisplayKit.swiftmodule/Project/arm64-apple-ios-simulator.swiftsourceinfo</key>
+		<data>
+		S7J0DGZBZFxMViSrGgmLwM7amzE=
+		</data>
+		<key>Modules/SASDisplayKit.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
+		<data>
+		LbodG3kJUWRzFygnkAtLTOJY16o=
+		</data>
+		<key>Modules/SASDisplayKit.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
+		<data>
+		lRUQzH8+GGAYCrwK+6gvqeB2dQo=
+		</data>
+		<key>Modules/SASDisplayKit.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
+		<data>
+		AbXRrTBnE5OfxK2XHiGy9+b+E8E=
+		</data>
+		<key>Modules/SASDisplayKit.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
+		<data>
+		oyDHgMSLHnkt4fQtpc7Y+xFyHko=
+		</data>
+		<key>Modules/SASDisplayKit.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
+		<data>
+		AbXRrTBnE5OfxK2XHiGy9+b+E8E=
+		</data>
+		<key>Modules/SASDisplayKit.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
+		<data>
+		fRTczTNOeTXWFOuec1IgD3iOnJ4=
+		</data>
+		<key>Modules/SASDisplayKit.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
+		<data>
+		lRUQzH8+GGAYCrwK+6gvqeB2dQo=
+		</data>
+		<key>Modules/SASDisplayKit.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
+		<data>
+		Bdl3Pq8i/1BxWDUBDcwrlEJw1T0=
+		</data>
+		<key>Modules/SASDisplayKit.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
+		<data>
+		AkF+1yQ2wtSLKoTxecGEDbrGvEY=
+		</data>
+		<key>Modules/SASDisplayKit.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
+		<data>
+		Bdl3Pq8i/1BxWDUBDcwrlEJw1T0=
+		</data>
+		<key>Modules/SASDisplayKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
+		<data>
+		tKF06T32Mx+Ol9IksnOtJPWZor0=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
-		70n/1by08NC0jeafuCcbgjO8zCA=
+		fjmvroz/E8UDoL5yJzTkbfBRD2s=
+		</data>
+		<key>Modules/module.private.modulemap</key>
+		<data>
+		i8Zg7RybiubdqOLbbjd/cWX+RrE=
 		</data>
 		<key>PrivacyInfo.xcprivacy</key>
 		<data>
 		LQ6qA68ajl6tZtXQWgUx7Ox4kb8=
 		</data>
-		<key>close-button.png</key>
+		<key>PrivateHeaders/SASLog.h</key>
 		<data>
-		PDVSTODqu1/kOv3HpoE/Agh01jU=
-		</data>
-		<key>close-button@2x.png</key>
-		<data>
-		s6rb8QRL4GuhKRO1nAAzLx/bilg=
-		</data>
-		<key>close-button@3x.png</key>
-		<data>
-		XiiOh7KIomRgK1CH+Z4gJ7Kvs6w=
+		8pueYfTeQyelpe5OTkyAuhomPkI=
 		</data>
 		<key>en.lproj/SASDisplayKit.strings</key>
 		<dict>
@@ -122,30 +190,6 @@
 			<key>optional</key>
 			<true/>
 		</dict>
-		<key>fullscreen-controller-enter-fullscreen.png</key>
-		<data>
-		CSmOfJbBs+whhB9mM+9VhrluZe4=
-		</data>
-		<key>fullscreen-controller-enter-fullscreen@2x.png</key>
-		<data>
-		K3je3BJFwjGxj32S6l+2IPjeLvs=
-		</data>
-		<key>fullscreen-controller-enter-fullscreen@3x.png</key>
-		<data>
-		+/6WSiGpBBRy+P2mYB1liV/2E1A=
-		</data>
-		<key>fullscreen-controller-exit-fullscreen.png</key>
-		<data>
-		3zDvAjahI86ZlU8c8DtPm58iefw=
-		</data>
-		<key>fullscreen-controller-exit-fullscreen@2x.png</key>
-		<data>
-		KIolA+71psyAW7USmdfCNAdV5yU=
-		</data>
-		<key>fullscreen-controller-exit-fullscreen@3x.png</key>
-		<data>
-		pU7cSV89WFsWg4MNBD7gSAzMaAU=
-		</data>
 		<key>sound-indicator_1.png</key>
 		<data>
 		nFM0zxBXqc484lfjfWGrGas3TX0=
@@ -257,6 +301,13 @@
 	</dict>
 	<key>files2</key>
 	<dict>
+		<key>Assets.car</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			WSMAcFcjcywb6zcFNypoNVGMlKTsn5zM6dusjXjsbzo=
+			</data>
+		</dict>
 		<key>Equativ-Display-SDK.podspec</key>
 		<dict>
 			<key>hash2</key>
@@ -282,14 +333,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			yDnxZcPRb4zWuPmWykXqOhLd9lLW/blN+Eyj5r5tLfc=
+			kWeigynLtjpKWA9mv4LnOWolBZ5dl3GjlqDVHiR1m88=
 			</data>
 		</dict>
 		<key>Headers/SASAdPlacement.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			r4qapRwLHcmckpA/4VvV4izwadeLKPCXL317B1b3PBM=
+			YVYESax0JzP2svgdFu1Wzb+r97IeriGqsma+zs+FjWk=
 			</data>
 		</dict>
 		<key>Headers/SASAdProgrammaticInfo.h</key>
@@ -317,7 +368,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			o1VAwznEIV8OXN3+wPC+nvFxI0bpsH+3yfo5V8LeYXc=
+			FQj7OtE0zpWzGIt061pae4xq5f2N4GmWwvfz7ZX6tis=
 			</data>
 		</dict>
 		<key>Headers/SASConfiguration.h</key>
@@ -327,11 +378,18 @@
 			UFxnmiBVuF0w09lRYP4D+9LEvCJJsBpG9wYIaT3U8Pw=
 			</data>
 		</dict>
+		<key>Headers/SASDisplayKit-Swift.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			oH81n1E2brwUOiiFhjoWOGOZ41VkqSPL+R33m3BxNrc=
+			</data>
+		</dict>
 		<key>Headers/SASDisplayKit.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			apfAdmRPdVBH7Go3Y6mLZuAH71NEkzgAOf253TnFWsY=
+			szvDZ+DY2oXVc4PKT4+8RLJehyg4nrcipQ1lTroOvHU=
 			</data>
 		</dict>
 		<key>Headers/SASFrameworkInfo.h</key>
@@ -352,7 +410,35 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			WG0yuIBFV7krVvSyDSPuNsr+DTAvqxyck9/dJV4f9jg=
+			49zzbp/kAboqJev1ob/Fv6k3P640EeCeBBAM8zKBtkI=
+			</data>
+		</dict>
+		<key>Headers/SASMediationBannerAdapter.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			GwVvWBTn4efrA4jb83YfhKaRHFuly+cDOX4dJ5NF22g=
+			</data>
+		</dict>
+		<key>Headers/SASMediationBannerAdapterDelegate.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			Q81zz/y+yTs79e9ednBelFB1htCsm1rtwkBq7obR2n8=
+			</data>
+		</dict>
+		<key>Headers/SASMediationInterstitialAdapter.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			l3bAzS+6fCNz+1axozdx40zqIFumzL0rLJQ23gjRaeU=
+			</data>
+		</dict>
+		<key>Headers/SASMediationInterstitialAdapterDelegate.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			/c7zH7ccve3gJdf6Zkuo7fwsnrlPhEgOv5iiHyH17NI=
 			</data>
 		</dict>
 		<key>Headers/SASParallaxMargins.h</key>
@@ -390,11 +476,102 @@
 			e/QJtuv5jAGfq3SiCOOE3GJLza3EA3PEy6Dgb5KQZBk=
 			</data>
 		</dict>
+		<key>Modules/SASDisplayKit.swiftmodule/Project/arm64-apple-ios-simulator.swiftsourceinfo</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			8ivW8Do9EsVETroN9Sa5r+QUdpC4vbIlpM4QvbbUQzo=
+			</data>
+		</dict>
+		<key>Modules/SASDisplayKit.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			JRnHu2njqqh8rnbQKMlc/YFK0EzMzDB/DExSFriRSn4=
+			</data>
+		</dict>
+		<key>Modules/SASDisplayKit.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			ZA1R1LMpmmF8f2PjoJFEaeF8jnSxsbTdZiRZ+dR9tZk=
+			</data>
+		</dict>
+		<key>Modules/SASDisplayKit.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			4JRlCrhOxFuKapTr25ulheadu5sDZuhiV6qXDtIGq2M=
+			</data>
+		</dict>
+		<key>Modules/SASDisplayKit.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			2L5YNJRvhkRSkJFY78F2oKCkEgH1wT9TrZFk3H7x2aQ=
+			</data>
+		</dict>
+		<key>Modules/SASDisplayKit.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			4JRlCrhOxFuKapTr25ulheadu5sDZuhiV6qXDtIGq2M=
+			</data>
+		</dict>
+		<key>Modules/SASDisplayKit.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			XXby0RPJfSqJYjJ/+a9l9yBt8LTbUL0gkWoBz3wgjk0=
+			</data>
+		</dict>
+		<key>Modules/SASDisplayKit.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			ZA1R1LMpmmF8f2PjoJFEaeF8jnSxsbTdZiRZ+dR9tZk=
+			</data>
+		</dict>
+		<key>Modules/SASDisplayKit.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			OyYLNUAmQ0Rd6sE4Y9iCH7kTSbm4lGBPP+gOLEJFe/A=
+			</data>
+		</dict>
+		<key>Modules/SASDisplayKit.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			GBKnNadbmzRViqGZ9mNYJszpLeYPAZ66RVIEpz1m+3U=
+			</data>
+		</dict>
+		<key>Modules/SASDisplayKit.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			OyYLNUAmQ0Rd6sE4Y9iCH7kTSbm4lGBPP+gOLEJFe/A=
+			</data>
+		</dict>
+		<key>Modules/SASDisplayKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			tADGvehl9shHJzK63ELEWP6TMsmLgHzzGFv6k6MhLfc=
+			</data>
+		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			HjV2Mp+S8YxFPb4R4vT3t9HgMCsmmLI/d6vyHhWOb4k=
+			ucQtp9mXOxiOWuoma26MUsNh1AC+6tsomfRbC6v/FvM=
+			</data>
+		</dict>
+		<key>Modules/module.private.modulemap</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			ukSZpIO4RlY2pVCOBhkpMZ784Nsr6K/X4axAFAIlU54=
 			</data>
 		</dict>
 		<key>PrivacyInfo.xcprivacy</key>
@@ -404,25 +581,11 @@
 			LDaajnV33e3s2yxWIWMe/HpbjiVU4dqy1BoxQCzsEpw=
 			</data>
 		</dict>
-		<key>close-button.png</key>
+		<key>PrivateHeaders/SASLog.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			3/Y9GdeyZn3Spco7dZCwwhV3oVa06pHV8KUiKUsPeFY=
-			</data>
-		</dict>
-		<key>close-button@2x.png</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			emeqxqzKQXdZZalrsTaZqjl215ZN+w6/HIFqqwQrUo4=
-			</data>
-		</dict>
-		<key>close-button@3x.png</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			328mxDL6PXpDWvBX05tXE+Bc4wGHytubB9vcxLb072k=
+			1MSsI4NWDJ+lQcTtMal3d03a/rkGmetAsD75f/dE/HU=
 			</data>
 		</dict>
 		<key>en.lproj/SASDisplayKit.strings</key>
@@ -442,48 +605,6 @@
 			</data>
 			<key>optional</key>
 			<true/>
-		</dict>
-		<key>fullscreen-controller-enter-fullscreen.png</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			K+5oHx5krapp2xuBpNzJ1r2jFMPs5WWWKh4fU/uqqLo=
-			</data>
-		</dict>
-		<key>fullscreen-controller-enter-fullscreen@2x.png</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			td9R2xoEaI/KTgDZeBY/WdKtwiljpC25H55xUP2DkzQ=
-			</data>
-		</dict>
-		<key>fullscreen-controller-enter-fullscreen@3x.png</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			ByHkrezWnJ8wdDiORtZX65QIWE3qloL6lLDtbUp5dZQ=
-			</data>
-		</dict>
-		<key>fullscreen-controller-exit-fullscreen.png</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			1wIHM3KjQThewHqCZ48v3uARt2j5Rp3PQ8l8tKWDLu8=
-			</data>
-		</dict>
-		<key>fullscreen-controller-exit-fullscreen@2x.png</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			3VckV/ioy773gMbg60cXdVUEQONYAYh96mdy3h0+Zc0=
-			</data>
-		</dict>
-		<key>fullscreen-controller-exit-fullscreen@3x.png</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			M9uu9e443NwCgTC/7UQD263ZbRWr8XJC0I3ADln8KMA=
-			</data>
 		</dict>
 		<key>sound-indicator_1.png</key>
 		<dict>

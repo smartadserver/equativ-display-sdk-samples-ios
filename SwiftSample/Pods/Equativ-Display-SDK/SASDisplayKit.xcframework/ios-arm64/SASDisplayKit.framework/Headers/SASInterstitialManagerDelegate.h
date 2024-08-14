@@ -69,6 +69,26 @@ NS_ASSUME_NONNULL_BEGIN
  */
 - (void)interstitialManagerClicked:(SASInterstitialManager *)interstitialManager;
 
+/**
+ Called when the interstitial starts audio playback.
+ 
+ @note Implement this method if your app also plays audio: pause your player while the ad is playing its own
+ audio and start it back when the ad is finished.
+ 
+ @param interstitialManager The instance of SASInterstitialManager playing the audio.
+ */
+- (void)interstitialManagerWillStartAudioPlayback:(SASInterstitialManager *)interstitialManager;
+
+/**
+ Called when the interstitial stops audio playback.
+ 
+ @note Implement this method if your app also plays audio: pause your player while the ad is playing its own
+ audio and start it back when the ad is finished.
+ 
+ @param interstitialManager The instance of SASInterstitialManager stoping audio playback.
+ */
+- (void)interstitialManagerDidStopAudioPlayback:(SASInterstitialManager *)interstitialManager;
+
 @end
 
 NS_ASSUME_NONNULL_END

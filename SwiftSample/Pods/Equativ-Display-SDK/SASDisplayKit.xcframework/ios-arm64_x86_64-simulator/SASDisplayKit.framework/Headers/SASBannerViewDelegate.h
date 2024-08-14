@@ -46,6 +46,23 @@ NS_ASSUME_NONNULL_BEGIN
 - (void)bannerViewClicked:(SASBannerView *)bannerView;
 
 /**
+ Called when the banner expand as a fullscreen view controller.
+ 
+ This can happen with some interactive creatives like MRAID HTML creatives, Video-Read
+ or when displaying ads from a third party SDK through the SASBannerView.
+ 
+ @param bannerView The instance of SASBannerView calling the delegate.
+ */
+- (void)bannerViewDidExpand:(SASBannerView *)bannerView;
+
+/**
+ Called when the banner collapse back as a non fullscreen view.
+ 
+ @param bannerView The instance of SASBannerView calling the delegate.
+ */
+- (void)bannerViewDidCollapse:(SASBannerView *)bannerView;
+
+/**
  Called when the banner requests to be closed.
  
  @note Some ad formats might want to close the banner ad by themself (for instance some video ads). It is
@@ -55,6 +72,26 @@ NS_ASSUME_NONNULL_BEGIN
  @param bannerView The instance of SASBannerView requesting to be closed.
  */
 - (void)bannerViewDidRequestClose:(SASBannerView *)bannerView;
+
+/**
+ Called when the banner starts audio playback.
+ 
+ @note Implement this method if your app also plays audio: pause your player while the ad is playing its own
+ audio and start it back when the ad is finished.
+ 
+ @param bannerView The instance of SASBannerView playing the audio.
+ */
+- (void)bannerViewWillStartAudioPlayback:(SASBannerView *)bannerView;
+
+/**
+ Called when the banner stops audio playback.
+ 
+ @note Implement this method if your app also plays audio: pause your player while the ad is playing its own
+ audio and start it back when the ad is finished.
+ 
+ @param bannerView The instance of SASBannerView stoping audio playback.
+ */
+- (void)bannerViewDidStopAudioPlayback:(SASBannerView *)bannerView;
 
 @end
 

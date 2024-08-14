@@ -21,6 +21,9 @@ NS_ASSUME_NONNULL_BEGIN
 /// The aspect ratio of the ad if available, nil otherwise. This NSNumber contains a Float. Especially useful for banner format, you can easily compute the correct height of your banner by dividing your desired width by this aspectRatio.
 @property (readonly, nullable) NSNumber *aspectRatio;
 
+/// The name of the mediation SDK which is currently displaying the ad. Will be available only in a mediation ad call, and nil otherwise.
+@property (readonly, nullable) NSString *mediationSDKName;
+
 /// All programmatic info corresponding to this ad if available, nil otherwise.
 @property (readonly, nullable) SASAdProgrammaticInfo *programmaticInfo;
 
