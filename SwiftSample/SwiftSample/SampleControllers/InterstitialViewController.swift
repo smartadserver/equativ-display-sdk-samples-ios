@@ -108,18 +108,4 @@ class InterstitialViewController : UIViewController, SASInterstitialManagerDeleg
     func interstitialManagerClicked(_ interstitialManager: SASInterstitialManager) {
         print("Interstial ad was clicked")
     }
-    
-    func interstitialManagerWillStartAudioPlayback(_ interstitialManager: SASInterstitialManager) {
-        print("Interstitial video ad will start to play audio")
-
-        // Equativ Display SDK is notifying your app that it will play audio. You could optionally
-        // pause music and/or manipulate your audio session category depending on your apps design.
-    }
-
-    func interstitialManagerDidStopAudioPlayback(_ interstitialManager: SASInterstitialManager) {
-        print("Interstitial video ad did stop to play audio")
-
-        // Equativ Display SDK is notifying your app that it has stopped playing audio. Depending
-        // on your apps design, you could resume music here and/or restore your audio session category.
-    }
 }

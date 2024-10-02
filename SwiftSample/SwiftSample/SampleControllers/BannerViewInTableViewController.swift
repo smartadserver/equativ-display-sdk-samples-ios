@@ -187,18 +187,4 @@ class BannerViewInTableViewController : UITableViewController, SASBannerViewDele
     func bannerViewClicked(_ bannerView: SASBannerView) {
         print("Banner ad was clicked")
     }
-    
-    func bannerViewWillStartAudioPlayback(_ bannerView: SASBannerView) {
-        print("Banner video ad will start to play audio")
-        
-        // Equativ Display SDK is notifying your app that it will play audio. You could optionally
-        // pause music and/or manipulate your audio session category depending on your apps design.
-    }
-    
-    func bannerViewDidStopAudioPlayback(_ bannerView: SASBannerView) {
-        print("Banner video ad did stop to play audio")
-        
-        // Equativ Display SDK is notifying your app that it has stopped playing audio. Depending
-        // on your apps design, you could resume music here and/or restore your audio session category.
-    }
 }
