@@ -1,16 +1,16 @@
 PODS:
-  - Equativ-Display-SDK (8.2.2)
+  - Equativ-Display-SDK (8.2.3)
 
 DEPENDENCIES:
-  - Equativ-Display-SDK (~> 8.2.2)
+  - Equativ-Display-SDK (~> 8.2.3)
 
 SPEC REPOS:
   https://github.com/CocoaPods/Specs.git:
     - Equativ-Display-SDK
 
 SPEC CHECKSUMS:
-  Equativ-Display-SDK: e767bdffbfc7455965ab8f5f97e5f02a3bd29d20
+  Equativ-Display-SDK: 78d3e7a222c8ce690e26fd27d14687e2eed98cdf
 
-PODFILE CHECKSUM: 47b25ef66f3fb15f54896b6a0b936a93f6e5367c
+PODFILE CHECKSUM: 7f9f91b4f9f8240c2ac4b795eb6e00b68ab422a0
 
-COCOAPODS: 1.14.3
+COCOAPODS: 1.15.2
