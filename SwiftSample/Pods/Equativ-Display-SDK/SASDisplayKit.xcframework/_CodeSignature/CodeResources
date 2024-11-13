@@ -18,7 +18,7 @@
 		</data>
 		<key>ios-arm64/SASDisplayKit.framework/Headers/SASAdPlacement.h</key>
 		<data>
-		bIWrRPHbSEanM0A57AECXH4Hn+U=
+		vH8ePTT5Ub46SURjT4dLqGSdCXg=
 		</data>
 		<key>ios-arm64/SASDisplayKit.framework/Headers/SASAdProgrammaticInfo.h</key>
 		<data>
@@ -30,7 +30,7 @@
 		</data>
 		<key>ios-arm64/SASDisplayKit.framework/Headers/SASBannerView.h</key>
 		<data>
-		nkMyQQ+tMpGRr+sZE32xG4SN8RE=
+		9Hcd/A2yUHUUvwx7FUl+Ae7+t5o=
 		</data>
 		<key>ios-arm64/SASDisplayKit.framework/Headers/SASBannerViewDelegate.h</key>
 		<data>
@@ -42,7 +42,7 @@
 		</data>
 		<key>ios-arm64/SASDisplayKit.framework/Headers/SASDisplayKit.h</key>
 		<data>
-		G9Ty05Am3g5yeaQRqL8Jm3E7MwI=
+		6IEz1pTqiLUCCIwLr7pXoqcMNlk=
 		</data>
 		<key>ios-arm64/SASDisplayKit.framework/Headers/SASFrameworkInfo.h</key>
 		<data>
@@ -50,7 +50,7 @@
 		</data>
 		<key>ios-arm64/SASDisplayKit.framework/Headers/SASInterstitialManager.h</key>
 		<data>
-		QtYI/9/qTbloUZjr/yyb5QO7g1I=
+		YtdLUVW6gUZGf8WzDAFcnjKLew0=
 		</data>
 		<key>ios-arm64/SASDisplayKit.framework/Headers/SASInterstitialManagerDelegate.h</key>
 		<data>
@@ -72,9 +72,37 @@
 		<data>
 		5e3DfT8YPNbklcbtl6S7ZZ6aXQo=
 		</data>
+		<key>ios-arm64/SASDisplayKit.framework/Headers/SASNativeAdAssets.h</key>
+		<data>
+		s9ZO/+kfAxV8FKgG3PhIZ7kfILE=
+		</data>
+		<key>ios-arm64/SASDisplayKit.framework/Headers/SASNativeAdView.h</key>
+		<data>
+		F9JUEnSY0AYin8ttlEjjqzpz6yQ=
+		</data>
+		<key>ios-arm64/SASDisplayKit.framework/Headers/SASNativeAdViewBinder.h</key>
+		<data>
+		waEF72cGm5s4AgvP6D+nc988OdA=
+		</data>
+		<key>ios-arm64/SASDisplayKit.framework/Headers/SASNativeAdViewBinderBuilder.h</key>
+		<data>
+		3gUMXvbiNs6ICbd0/H6bZMbqpJY=
+		</data>
+		<key>ios-arm64/SASDisplayKit.framework/Headers/SASNativeAdViewDelegate.h</key>
+		<data>
+		NFPxjpL0lRsnNqzdzOKW+yxPqx4=
+		</data>
 		<key>ios-arm64/SASDisplayKit.framework/Headers/SASParallaxMargins.h</key>
 		<data>
 		iFU2yHVAe24GsutLk3JgYbjI9jM=
+		</data>
+		<key>ios-arm64/SASDisplayKit.framework/Headers/SASRatingBar.h</key>
+		<data>
+		ai8RE3T2xqzpvGW/IlLxhDx8IrI=
+		</data>
+		<key>ios-arm64/SASDisplayKit.framework/Headers/SASRatingBarView.h</key>
+		<data>
+		P/+i0KBjc943Bbw19qun8g3Uyfw=
 		</data>
 		<key>ios-arm64/SASDisplayKit.framework/Headers/SASSecondaryImplementationInfo.h</key>
 		<data>
@@ -92,9 +120,13 @@
 		<data>
 		BAVXPWBPVUq09OmKst0pmxDxnXw=
 		</data>
+		<key>ios-arm64/SASDisplayKit.framework/Headers/SASViewAsset.h</key>
+		<data>
+		Z3ClotDVyOa910HoFzNLclC4pNw=
+		</data>
 		<key>ios-arm64/SASDisplayKit.framework/Info.plist</key>
 		<data>
-		sYUH0Op9RgocYhkjVWAk5TKxssA=
+		kvrVKwtm9E4D5xQJW1qTXsPwUAg=
 		</data>
 		<key>ios-arm64/SASDisplayKit.framework/Modules/module.modulemap</key>
 		<data>
@@ -106,7 +138,7 @@
 		</data>
 		<key>ios-arm64/SASDisplayKit.framework/SASDisplayKit</key>
 		<data>
-		kJT+grbdUOwZjqmDPpvvf09KEMo=
+		PO7NIyvc8MpsYQs6PGA7QHk5pV0=
 		</data>
 		<key>ios-arm64/SASDisplayKit.framework/en.lproj/SASDisplayKit.strings</key>
 		<dict>
@@ -248,7 +280,7 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/SASDisplayKit.framework/Headers/SASAdPlacement.h</key>
 		<data>
-		bIWrRPHbSEanM0A57AECXH4Hn+U=
+		vH8ePTT5Ub46SURjT4dLqGSdCXg=
 		</data>
 		<key>ios-arm64_x86_64-simulator/SASDisplayKit.framework/Headers/SASAdProgrammaticInfo.h</key>
 		<data>
@@ -260,7 +292,7 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/SASDisplayKit.framework/Headers/SASBannerView.h</key>
 		<data>
-		nkMyQQ+tMpGRr+sZE32xG4SN8RE=
+		9Hcd/A2yUHUUvwx7FUl+Ae7+t5o=
 		</data>
 		<key>ios-arm64_x86_64-simulator/SASDisplayKit.framework/Headers/SASBannerViewDelegate.h</key>
 		<data>
@@ -272,7 +304,7 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/SASDisplayKit.framework/Headers/SASDisplayKit.h</key>
 		<data>
-		G9Ty05Am3g5yeaQRqL8Jm3E7MwI=
+		6IEz1pTqiLUCCIwLr7pXoqcMNlk=
 		</data>
 		<key>ios-arm64_x86_64-simulator/SASDisplayKit.framework/Headers/SASFrameworkInfo.h</key>
 		<data>
@@ -280,7 +312,7 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/SASDisplayKit.framework/Headers/SASInterstitialManager.h</key>
 		<data>
-		QtYI/9/qTbloUZjr/yyb5QO7g1I=
+		YtdLUVW6gUZGf8WzDAFcnjKLew0=
 		</data>
 		<key>ios-arm64_x86_64-simulator/SASDisplayKit.framework/Headers/SASInterstitialManagerDelegate.h</key>
 		<data>
@@ -302,9 +334,37 @@
 		<data>
 		5e3DfT8YPNbklcbtl6S7ZZ6aXQo=
 		</data>
+		<key>ios-arm64_x86_64-simulator/SASDisplayKit.framework/Headers/SASNativeAdAssets.h</key>
+		<data>
+		s9ZO/+kfAxV8FKgG3PhIZ7kfILE=
+		</data>
+		<key>ios-arm64_x86_64-simulator/SASDisplayKit.framework/Headers/SASNativeAdView.h</key>
+		<data>
+		F9JUEnSY0AYin8ttlEjjqzpz6yQ=
+		</data>
+		<key>ios-arm64_x86_64-simulator/SASDisplayKit.framework/Headers/SASNativeAdViewBinder.h</key>
+		<data>
+		waEF72cGm5s4AgvP6D+nc988OdA=
+		</data>
+		<key>ios-arm64_x86_64-simulator/SASDisplayKit.framework/Headers/SASNativeAdViewBinderBuilder.h</key>
+		<data>
+		3gUMXvbiNs6ICbd0/H6bZMbqpJY=
+		</data>
+		<key>ios-arm64_x86_64-simulator/SASDisplayKit.framework/Headers/SASNativeAdViewDelegate.h</key>
+		<data>
+		NFPxjpL0lRsnNqzdzOKW+yxPqx4=
+		</data>
 		<key>ios-arm64_x86_64-simulator/SASDisplayKit.framework/Headers/SASParallaxMargins.h</key>
 		<data>
 		iFU2yHVAe24GsutLk3JgYbjI9jM=
+		</data>
+		<key>ios-arm64_x86_64-simulator/SASDisplayKit.framework/Headers/SASRatingBar.h</key>
+		<data>
+		ai8RE3T2xqzpvGW/IlLxhDx8IrI=
+		</data>
+		<key>ios-arm64_x86_64-simulator/SASDisplayKit.framework/Headers/SASRatingBarView.h</key>
+		<data>
+		P/+i0KBjc943Bbw19qun8g3Uyfw=
 		</data>
 		<key>ios-arm64_x86_64-simulator/SASDisplayKit.framework/Headers/SASSecondaryImplementationInfo.h</key>
 		<data>
@@ -322,9 +382,13 @@
 		<data>
 		BAVXPWBPVUq09OmKst0pmxDxnXw=
 		</data>
+		<key>ios-arm64_x86_64-simulator/SASDisplayKit.framework/Headers/SASViewAsset.h</key>
+		<data>
+		Z3ClotDVyOa910HoFzNLclC4pNw=
+		</data>
 		<key>ios-arm64_x86_64-simulator/SASDisplayKit.framework/Info.plist</key>
 		<data>
-		fFdswga1TcciUoCPc4R2M9ITwu0=
+		QGEnRmcLdSIK8iz+n5DcG5hGxP8=
 		</data>
 		<key>ios-arm64_x86_64-simulator/SASDisplayKit.framework/Modules/module.modulemap</key>
 		<data>
@@ -336,11 +400,11 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/SASDisplayKit.framework/SASDisplayKit</key>
 		<data>
-		aSkq/qFGNuSMKzjJIRTGVVsLE2E=
+		KLmgnw4TqDaSl6yPzPl7zkl0fZM=
 		</data>
 		<key>ios-arm64_x86_64-simulator/SASDisplayKit.framework/_CodeSignature/CodeResources</key>
 		<data>
-		8Luf7SRcG/MTezMWQNlLefdGBBw=
+		+YFKsWQnqXJXNK+eM4t4e9l5F1o=
 		</data>
 		<key>ios-arm64_x86_64-simulator/SASDisplayKit.framework/en.lproj/SASDisplayKit.strings</key>
 		<dict>
@@ -508,11 +572,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			bIWrRPHbSEanM0A57AECXH4Hn+U=
+			vH8ePTT5Ub46SURjT4dLqGSdCXg=
 			</data>
 			<key>hash2</key>
 			<data>
-			YVYESax0JzP2svgdFu1Wzb+r97IeriGqsma+zs+FjWk=
+			Zzk1lbfAXVJkZSd88Uof5f5EtqOeerzvZn1HZEOQbs4=
 			</data>
 		</dict>
 		<key>ios-arm64/SASDisplayKit.framework/Headers/SASAdProgrammaticInfo.h</key>
@@ -541,11 +605,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			nkMyQQ+tMpGRr+sZE32xG4SN8RE=
+			9Hcd/A2yUHUUvwx7FUl+Ae7+t5o=
 			</data>
 			<key>hash2</key>
 			<data>
-			awhUDdeZgc/kjXOCIA/1hsD5PV+yp5Ia4bfR9Es7Qpk=
+			qWCl8GX2eV6iI7gJvF64jnHVm/SlENrzapPt5xOAjS0=
 			</data>
 		</dict>
 		<key>ios-arm64/SASDisplayKit.framework/Headers/SASBannerViewDelegate.h</key>
@@ -574,11 +638,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			G9Ty05Am3g5yeaQRqL8Jm3E7MwI=
+			6IEz1pTqiLUCCIwLr7pXoqcMNlk=
 			</data>
 			<key>hash2</key>
 			<data>
-			szvDZ+DY2oXVc4PKT4+8RLJehyg4nrcipQ1lTroOvHU=
+			0n83GECRo7gEj5AEYBP3NaFfmxDnT1OLi2YPZvk8R5c=
 			</data>
 		</dict>
 		<key>ios-arm64/SASDisplayKit.framework/Headers/SASFrameworkInfo.h</key>
@@ -596,11 +660,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			QtYI/9/qTbloUZjr/yyb5QO7g1I=
+			YtdLUVW6gUZGf8WzDAFcnjKLew0=
 			</data>
 			<key>hash2</key>
 			<data>
-			LearMiipkv9FXizkqPSOvwmmh40YMEAcr75C61X+3e0=
+			ocn27N5E59qxvZtzFfnp/JgNyhTKlQaQsNZmMaq0H4w=
 			</data>
 		</dict>
 		<key>ios-arm64/SASDisplayKit.framework/Headers/SASInterstitialManagerDelegate.h</key>
@@ -658,6 +722,61 @@
 			/c7zH7ccve3gJdf6Zkuo7fwsnrlPhEgOv5iiHyH17NI=
 			</data>
 		</dict>
+		<key>ios-arm64/SASDisplayKit.framework/Headers/SASNativeAdAssets.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			s9ZO/+kfAxV8FKgG3PhIZ7kfILE=
+			</data>
+			<key>hash2</key>
+			<data>
+			Vmnb8EsXtoslhGUNE3BnjVHQuJqJk6HfNTtODwOUBio=
+			</data>
+		</dict>
+		<key>ios-arm64/SASDisplayKit.framework/Headers/SASNativeAdView.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			F9JUEnSY0AYin8ttlEjjqzpz6yQ=
+			</data>
+			<key>hash2</key>
+			<data>
+			xbCyXMIiEKvQQaCdwh9Bjz49RI2QH6EYRWgP/GtYN3g=
+			</data>
+		</dict>
+		<key>ios-arm64/SASDisplayKit.framework/Headers/SASNativeAdViewBinder.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			waEF72cGm5s4AgvP6D+nc988OdA=
+			</data>
+			<key>hash2</key>
+			<data>
+			EBSFlUXPJwaz+mKzMvATaREaO+1Fkn6M1AahzwJwXBc=
+			</data>
+		</dict>
+		<key>ios-arm64/SASDisplayKit.framework/Headers/SASNativeAdViewBinderBuilder.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			3gUMXvbiNs6ICbd0/H6bZMbqpJY=
+			</data>
+			<key>hash2</key>
+			<data>
+			pTlbd1D0aiYvaEUksFxmLI/6FU83lahR9KrrkTiZ9Og=
+			</data>
+		</dict>
+		<key>ios-arm64/SASDisplayKit.framework/Headers/SASNativeAdViewDelegate.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			NFPxjpL0lRsnNqzdzOKW+yxPqx4=
+			</data>
+			<key>hash2</key>
+			<data>
+			F2ejYcZb6YvMviN5U1IDq+aR/LbnNBIbohGdvyHPSOs=
+			</data>
+		</dict>
 		<key>ios-arm64/SASDisplayKit.framework/Headers/SASParallaxMargins.h</key>
 		<dict>
 			<key>hash</key>
@@ -667,6 +786,28 @@
 			<key>hash2</key>
 			<data>
 			Oj341Ot1QjedZ+jtznsqbe2W/JV7w3ftikHZTpuMEmY=
+			</data>
+		</dict>
+		<key>ios-arm64/SASDisplayKit.framework/Headers/SASRatingBar.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			ai8RE3T2xqzpvGW/IlLxhDx8IrI=
+			</data>
+			<key>hash2</key>
+			<data>
+			l4dR9br2vZKNg9ya2obMu4Spo+4RxY+6SCejjnHuMKk=
+			</data>
+		</dict>
+		<key>ios-arm64/SASDisplayKit.framework/Headers/SASRatingBarView.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			P/+i0KBjc943Bbw19qun8g3Uyfw=
+			</data>
+			<key>hash2</key>
+			<data>
+			EoOnOKnTC9I3H/hG4V+XFitAw6cnqEJ6W5zirdKyzqY=
 			</data>
 		</dict>
 		<key>ios-arm64/SASDisplayKit.framework/Headers/SASSecondaryImplementationInfo.h</key>
@@ -713,15 +854,26 @@
 			e/QJtuv5jAGfq3SiCOOE3GJLza3EA3PEy6Dgb5KQZBk=
 			</data>
 		</dict>
+		<key>ios-arm64/SASDisplayKit.framework/Headers/SASViewAsset.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			Z3ClotDVyOa910HoFzNLclC4pNw=
+			</data>
+			<key>hash2</key>
+			<data>
+			7v28cheehj5gJu0Zl17eg+1cMWcJHXaTrmsAx9FpRoQ=
+			</data>
+		</dict>
 		<key>ios-arm64/SASDisplayKit.framework/Info.plist</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			sYUH0Op9RgocYhkjVWAk5TKxssA=
+			kvrVKwtm9E4D5xQJW1qTXsPwUAg=
 			</data>
 			<key>hash2</key>
 			<data>
-			mFAckrI66OINyczLNz21Z98JtSe8uiZnhrdOEvUjE6o=
+			YytvKQDqVQSTTr+6iPg+c2YVbR8FaYlN6osfuWiQoW4=
 			</data>
 		</dict>
 		<key>ios-arm64/SASDisplayKit.framework/Modules/module.modulemap</key>
@@ -750,11 +902,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			kJT+grbdUOwZjqmDPpvvf09KEMo=
+			PO7NIyvc8MpsYQs6PGA7QHk5pV0=
 			</data>
 			<key>hash2</key>
 			<data>
-			jIEo1ODc0dYFNKb+s5TWJU+4T37cLEnoQN6L9tPlXuo=
+			VCxfU/4NrxOLNjtjfnLE7igFqBNdIm6uD+5NF6VLqBw=
 			</data>
 		</dict>
 		<key>ios-arm64/SASDisplayKit.framework/en.lproj/SASDisplayKit.strings</key>
@@ -1117,11 +1269,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			bIWrRPHbSEanM0A57AECXH4Hn+U=
+			vH8ePTT5Ub46SURjT4dLqGSdCXg=
 			</data>
 			<key>hash2</key>
 			<data>
-			YVYESax0JzP2svgdFu1Wzb+r97IeriGqsma+zs+FjWk=
+			Zzk1lbfAXVJkZSd88Uof5f5EtqOeerzvZn1HZEOQbs4=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/SASDisplayKit.framework/Headers/SASAdProgrammaticInfo.h</key>
@@ -1150,11 +1302,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			nkMyQQ+tMpGRr+sZE32xG4SN8RE=
+			9Hcd/A2yUHUUvwx7FUl+Ae7+t5o=
 			</data>
 			<key>hash2</key>
 			<data>
-			awhUDdeZgc/kjXOCIA/1hsD5PV+yp5Ia4bfR9Es7Qpk=
+			qWCl8GX2eV6iI7gJvF64jnHVm/SlENrzapPt5xOAjS0=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/SASDisplayKit.framework/Headers/SASBannerViewDelegate.h</key>
@@ -1183,11 +1335,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			G9Ty05Am3g5yeaQRqL8Jm3E7MwI=
+			6IEz1pTqiLUCCIwLr7pXoqcMNlk=
 			</data>
 			<key>hash2</key>
 			<data>
-			szvDZ+DY2oXVc4PKT4+8RLJehyg4nrcipQ1lTroOvHU=
+			0n83GECRo7gEj5AEYBP3NaFfmxDnT1OLi2YPZvk8R5c=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/SASDisplayKit.framework/Headers/SASFrameworkInfo.h</key>
@@ -1205,11 +1357,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			QtYI/9/qTbloUZjr/yyb5QO7g1I=
+			YtdLUVW6gUZGf8WzDAFcnjKLew0=
 			</data>
 			<key>hash2</key>
 			<data>
-			LearMiipkv9FXizkqPSOvwmmh40YMEAcr75C61X+3e0=
+			ocn27N5E59qxvZtzFfnp/JgNyhTKlQaQsNZmMaq0H4w=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/SASDisplayKit.framework/Headers/SASInterstitialManagerDelegate.h</key>
@@ -1267,6 +1419,61 @@
 			/c7zH7ccve3gJdf6Zkuo7fwsnrlPhEgOv5iiHyH17NI=
 			</data>
 		</dict>
+		<key>ios-arm64_x86_64-simulator/SASDisplayKit.framework/Headers/SASNativeAdAssets.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			s9ZO/+kfAxV8FKgG3PhIZ7kfILE=
+			</data>
+			<key>hash2</key>
+			<data>
+			Vmnb8EsXtoslhGUNE3BnjVHQuJqJk6HfNTtODwOUBio=
+			</data>
+		</dict>
+		<key>ios-arm64_x86_64-simulator/SASDisplayKit.framework/Headers/SASNativeAdView.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			F9JUEnSY0AYin8ttlEjjqzpz6yQ=
+			</data>
+			<key>hash2</key>
+			<data>
+			xbCyXMIiEKvQQaCdwh9Bjz49RI2QH6EYRWgP/GtYN3g=
+			</data>
+		</dict>
+		<key>ios-arm64_x86_64-simulator/SASDisplayKit.framework/Headers/SASNativeAdViewBinder.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			waEF72cGm5s4AgvP6D+nc988OdA=
+			</data>
+			<key>hash2</key>
+			<data>
+			EBSFlUXPJwaz+mKzMvATaREaO+1Fkn6M1AahzwJwXBc=
+			</data>
+		</dict>
+		<key>ios-arm64_x86_64-simulator/SASDisplayKit.framework/Headers/SASNativeAdViewBinderBuilder.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			3gUMXvbiNs6ICbd0/H6bZMbqpJY=
+			</data>
+			<key>hash2</key>
+			<data>
+			pTlbd1D0aiYvaEUksFxmLI/6FU83lahR9KrrkTiZ9Og=
+			</data>
+		</dict>
+		<key>ios-arm64_x86_64-simulator/SASDisplayKit.framework/Headers/SASNativeAdViewDelegate.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			NFPxjpL0lRsnNqzdzOKW+yxPqx4=
+			</data>
+			<key>hash2</key>
+			<data>
+			F2ejYcZb6YvMviN5U1IDq+aR/LbnNBIbohGdvyHPSOs=
+			</data>
+		</dict>
 		<key>ios-arm64_x86_64-simulator/SASDisplayKit.framework/Headers/SASParallaxMargins.h</key>
 		<dict>
 			<key>hash</key>
@@ -1276,6 +1483,28 @@
 			<key>hash2</key>
 			<data>
 			Oj341Ot1QjedZ+jtznsqbe2W/JV7w3ftikHZTpuMEmY=
+			</data>
+		</dict>
+		<key>ios-arm64_x86_64-simulator/SASDisplayKit.framework/Headers/SASRatingBar.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			ai8RE3T2xqzpvGW/IlLxhDx8IrI=
+			</data>
+			<key>hash2</key>
+			<data>
+			l4dR9br2vZKNg9ya2obMu4Spo+4RxY+6SCejjnHuMKk=
+			</data>
+		</dict>
+		<key>ios-arm64_x86_64-simulator/SASDisplayKit.framework/Headers/SASRatingBarView.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			P/+i0KBjc943Bbw19qun8g3Uyfw=
+			</data>
+			<key>hash2</key>
+			<data>
+			EoOnOKnTC9I3H/hG4V+XFitAw6cnqEJ6W5zirdKyzqY=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/SASDisplayKit.framework/Headers/SASSecondaryImplementationInfo.h</key>
@@ -1322,15 +1551,26 @@
 			e/QJtuv5jAGfq3SiCOOE3GJLza3EA3PEy6Dgb5KQZBk=
 			</data>
 		</dict>
+		<key>ios-arm64_x86_64-simulator/SASDisplayKit.framework/Headers/SASViewAsset.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			Z3ClotDVyOa910HoFzNLclC4pNw=
+			</data>
+			<key>hash2</key>
+			<data>
+			7v28cheehj5gJu0Zl17eg+1cMWcJHXaTrmsAx9FpRoQ=
+			</data>
+		</dict>
 		<key>ios-arm64_x86_64-simulator/SASDisplayKit.framework/Info.plist</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			fFdswga1TcciUoCPc4R2M9ITwu0=
+			QGEnRmcLdSIK8iz+n5DcG5hGxP8=
 			</data>
 			<key>hash2</key>
 			<data>
-			ZxwKaLXD3IdajPzst6RpIKUrIQbURsusvAC3SG3L5rs=
+			U0xMk2jINDfeCHcGtLbsz7uOZA6PzPAT/tZyHS/k/YU=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/SASDisplayKit.framework/Modules/module.modulemap</key>
@@ -1359,22 +1599,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			aSkq/qFGNuSMKzjJIRTGVVsLE2E=
+			KLmgnw4TqDaSl6yPzPl7zkl0fZM=
 			</data>
 			<key>hash2</key>
 			<data>
-			Kg+g5XNChro5ZJJ57ll05/+GjIxmO24ZYd2/PcIJHHc=
+			LdQzg0yRoaY/toKhuJEtw4idZMlXvgEdduwdrTD9/To=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/SASDisplayKit.framework/_CodeSignature/CodeResources</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			8Luf7SRcG/MTezMWQNlLefdGBBw=
+			+YFKsWQnqXJXNK+eM4t4e9l5F1o=
 			</data>
 			<key>hash2</key>
 			<data>
-			QMOfTczEs5Fz+BcjbaEIIxOjc4IfbPonVR/9T/oRz4c=
+			34CZkm8Dgc1dgCu/FpQA6p8Gxj46dXPKUqFqHSVk4kI=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/SASDisplayKit.framework/en.lproj/SASDisplayKit.strings</key>

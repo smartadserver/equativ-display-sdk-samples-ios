@@ -39,6 +39,18 @@ FOUNDATION_EXPORT const unsigned char SASDisplayKitVersionString[];
 #import <SASDisplayKit/SASMediationInterstitialAdapter.h>
 #import <SASDisplayKit/SASMediationInterstitialAdapterDelegate.h>
 
+// Native ad
+#import <SASDisplayKit/SASNativeAdView.h>
+#import <SASDisplayKit/SASNativeAdViewDelegate.h>
+#import <SASDisplayKit/SASNativeAdAssets.h>
+#import <SASDisplayKit/SASViewAsset.h>
+#import <SASDisplayKit/SASNativeAdViewBinder.h>
+#import <SASDisplayKit/SASNativeAdViewBinderBuilder.h>
+
+// Misc UI components
+#import <SASDisplayKit/SASRatingBar.h>
+#import <SASDisplayKit/SASRatingBarView.h>
+
 // Utils
 #import <SASDisplayKit/SASConfiguration.h>
 #import <SASDisplayKit/SASSecondaryImplementationInfo.h>

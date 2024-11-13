@@ -72,6 +72,8 @@ class MainViewController: UITableViewController {
         addItemInItemsArray("Banner", segueIdentifier: "BannerViewControllerSegue")
         addItemInItemsArray("Banner in Table View", segueIdentifier: "BannerViewInTableViewControllerSegue")
         addItemInItemsArray("Interstitial", segueIdentifier: "InterstitialViewControllerSegue")
+        addItemInItemsArray("Native ad in Table View", segueIdentifier: "NativeAdViewInTableViewControllerSegue")
+        
         tableView.reloadData()
     }
     

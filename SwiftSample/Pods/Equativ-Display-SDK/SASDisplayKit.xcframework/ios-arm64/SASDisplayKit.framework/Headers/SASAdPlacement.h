@@ -39,8 +39,15 @@ typedef NS_ENUM(NSInteger, SASAdPlacementTest) {
     SASAdPlacementTestInterstitialHTML,
     
     /// A placement that will return a video interstitial ad.
-    SASAdPlacementTestInterstitialVideo
+    SASAdPlacementTestInterstitialVideo,
+
+#pragma mark - Native ads
     
+    /// A placement that will return a native ad with icon.
+    SASAdPlacementTestNativeAdIcon,
+
+    /// A placement that will return a native ad with icon and cover.
+    SASAdPlacementTestNativeAdIconAndCover,
 };
     
 /**

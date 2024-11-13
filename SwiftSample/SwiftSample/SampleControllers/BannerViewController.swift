@@ -95,6 +95,12 @@ class BannerViewController : UIViewController, SASBannerViewDelegate {
         // let adPlacement = SASAdPlacement(testAd: .bannerVideo)
         // let adPlacement = SASAdPlacement(testAd: .bannerMRAIDExpand)
         
+        // Note that starting with the Equativ Display SDK 8.3.0 you can also load native ad insertions
+        // through the banner view. Try it by using our native ad test placements:
+        
+        // let adPlacement = SASAdPlacement(testAd: .nativeAdIcon)
+        // let adPlacement = SASAdPlacement(testAd: .nativeAdIconAndCover)
+
         // Load the placement in the banner using the `loadAd` method
         bannerView.loadAd(with: adPlacement)
     }
@@ -125,5 +131,19 @@ class BannerViewController : UIViewController, SASBannerViewDelegate {
     
     func bannerViewClicked(_ bannerView: SASBannerView) {
         print("Banner ad was clicked")
+    }
+    
+    func bannerViewWillStartAudioPlayback(_ bannerView: SASBannerView) {
+        print("Banner video ad will start to play audio")
+        
+        // Equativ Display SDK is notifying your app that it will play audio. You could optionally
+        // pause music and/or manipulate your audio session category depending on your apps design.
+    }
+    
+    func bannerViewDidStopAudioPlayback(_ bannerView: SASBannerView) {
+        print("Banner video ad did stop to play audio")
+        
+        // Equativ Display SDK is notifying your app that it has stopped playing audio. Depending
+        // on your apps design, you could resume music here and/or restore your audio session category.
     }
 }

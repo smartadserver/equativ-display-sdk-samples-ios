@@ -37,6 +37,9 @@ NS_ASSUME_NONNULL_BEGIN
 /// Default value: 0 margin for each side.
 @property (strong) SASParallaxMargins *parallaxMargins;
 
+/// The last placement loaded in the banner view if any, nil otherwise.
+@property (readonly, nullable) SASAdPlacement *adPlacement;
+
 /**
  Attempt to load an ad using the provided ad placement.
  

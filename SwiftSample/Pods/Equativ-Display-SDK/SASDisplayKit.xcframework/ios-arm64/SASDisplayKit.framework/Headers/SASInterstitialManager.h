@@ -24,6 +24,9 @@ NS_ASSUME_NONNULL_BEGIN
 /// The current status of the ad.
 @property (readonly) SASAdStatus adStatus;
 
+/// The ad placement used to load the ad.
+@property (readonly) SASAdPlacement *adPlacement;
+
 /**
  Initialize a new instance of SASInterstitialManager.
  
