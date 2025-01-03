@@ -10,6 +10,7 @@
 #import <SASDisplayKit/SASAdPlacement.h>
 #import <SASDisplayKit/SASBannerViewDelegate.h>
 #import <SASDisplayKit/SASParallaxMargins.h>
+#import <SASDisplayKit/SASBiddingAdResponse.h>
 
 NS_ASSUME_NONNULL_BEGIN
 
@@ -46,6 +47,17 @@ NS_ASSUME_NONNULL_BEGIN
  @param adPlacement The ad placement used to load the ad.
  */
 - (void)loadAdWithAdPlacement:(SASAdPlacement *)adPlacement;
+
+/**
+ Load an ad using the provided 'bidding ad response'.
+ 
+ You can create a bidding ad response using the SASBiddingManager class.
+ 
+ @note A bidding ad response can only be used once.
+ 
+ @param biddingAdResponse A valid & non-consumed bidding ad response.
+ */
+- (void)loadAdWithBiddingAdResponse:(SASBiddingAdResponse *)biddingAdResponse;
 
 @end
 

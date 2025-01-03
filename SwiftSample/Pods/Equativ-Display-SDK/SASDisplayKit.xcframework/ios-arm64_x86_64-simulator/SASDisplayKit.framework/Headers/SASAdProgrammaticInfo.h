@@ -10,7 +10,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-/// Model class, sub module of SASAdInfo model, centralizing useful programmatic information for publishers.
+/// Model class centralizing useful programmatic information for publishers.
 @interface SASAdProgrammaticInfo : NSObject
 
 /// The advertiser ID corresponding to this ad if available, nil otherwise.

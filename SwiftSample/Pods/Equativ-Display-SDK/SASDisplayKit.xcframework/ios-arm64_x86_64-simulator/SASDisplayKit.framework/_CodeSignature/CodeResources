@@ -26,11 +26,11 @@
 		</data>
 		<key>Headers/SASAdPlacement.h</key>
 		<data>
-		vH8ePTT5Ub46SURjT4dLqGSdCXg=
+		SbXurJDmHvK0xqBZhxJgDl50LBc=
 		</data>
 		<key>Headers/SASAdProgrammaticInfo.h</key>
 		<data>
-		67rZSaWm4UaCRPCrxdLzttRvh/o=
+		qFZJ6DVBzB6p5Y2Ae+TKlX8Bo/o=
 		</data>
 		<key>Headers/SASAdStatus.h</key>
 		<data>
@@ -38,23 +38,55 @@
 		</data>
 		<key>Headers/SASBannerView.h</key>
 		<data>
-		9Hcd/A2yUHUUvwx7FUl+Ae7+t5o=
+		6+WwW3FXztgyHJ+09r46r3ee8Mc=
 		</data>
 		<key>Headers/SASBannerViewDelegate.h</key>
 		<data>
 		LO5F0Q+DvVBZZXBww6CBSIYmgRA=
 		</data>
+		<key>Headers/SASBiddingAdFormatType.h</key>
+		<data>
+		C600XcHEY2Sy5TBRSMxpQfe2hck=
+		</data>
+		<key>Headers/SASBiddingAdPrice.h</key>
+		<data>
+		Qj6xsNGcIJsPdmaVF4SMG5Cn3C0=
+		</data>
+		<key>Headers/SASBiddingAdResponse.h</key>
+		<data>
+		vXdy2g/PRzgk7jdtlw583ka6dPU=
+		</data>
+		<key>Headers/SASBiddingCurrency.h</key>
+		<data>
+		NfhxxlYMcEpldzuAHCZvHrvCVCk=
+		</data>
+		<key>Headers/SASBiddingManager.h</key>
+		<data>
+		b2sDwxjI3Xv9gfTQ7oTqRAkvdTk=
+		</data>
+		<key>Headers/SASBiddingManagerDelegate.h</key>
+		<data>
+		uq4Z/DDAlPkaKKTi3tB5YTrEDU8=
+		</data>
 		<key>Headers/SASConfiguration.h</key>
 		<data>
-		VRGZL0chxwUoFvSQYakgDYdgZ/s=
+		FyLetXM4mOgz0JO30nD12erlXZE=
+		</data>
+		<key>Headers/SASDigitalServiceActConfig.h</key>
+		<data>
+		BwLREBBzgXTVRSoYyyqbOGaYwSI=
+		</data>
+		<key>Headers/SASDigitalServiceActConfigTransparency.h</key>
+		<data>
+		mfVCELEkEtlK4tEGDt32ObF9jpI=
 		</data>
 		<key>Headers/SASDisplayKit-Swift.h</key>
 		<data>
-		gjZCcJMg3UQ3pjdFjkmp/75xpaM=
+		I6cTBfKQujtmWlQwFtPvxiXmf0A=
 		</data>
 		<key>Headers/SASDisplayKit.h</key>
 		<data>
-		6IEz1pTqiLUCCIwLr7pXoqcMNlk=
+		NBwAwzLP8HmQM59EYIHgdUHUTMk=
 		</data>
 		<key>Headers/SASFrameworkInfo.h</key>
 		<data>
@@ -62,7 +94,7 @@
 		</data>
 		<key>Headers/SASInterstitialManager.h</key>
 		<data>
-		YtdLUVW6gUZGf8WzDAFcnjKLew0=
+		n2g4vcn/pCrIFslTvTQ95ZETRDs=
 		</data>
 		<key>Headers/SASInterstitialManagerDelegate.h</key>
 		<data>
@@ -138,55 +170,55 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		+9IKe3ibZnWfEYPpqbjUeYKYRkM=
+		mL3rH409tWl/45m6in8Ky+0pbtk=
 		</data>
 		<key>Modules/SASDisplayKit.swiftmodule/Project/arm64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		iN0YAuHKjpR7cddnF3DPVvfb7RU=
+		y/x+XRWfJUt8zhg0w0zBe1gpjf4=
 		</data>
 		<key>Modules/SASDisplayKit.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		kAd+KWAoy2U7J6pRJFhN7bx3vLs=
+		VPo939Bu8LiMhn1JW6PX6XOWCKc=
 		</data>
 		<key>Modules/SASDisplayKit.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		iWl/d/PhJUIKErJ1S+8ISQPPPR8=
+		VKqgqOxpGsP54PxSPv6K+vxG11g=
 		</data>
 		<key>Modules/SASDisplayKit.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		4mjFO3XkTEApbccMkLoHz8jGyZI=
+		On7uVg4V8XezG6lJZCxQXJy5Zoc=
 		</data>
 		<key>Modules/SASDisplayKit.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		Yg1pHC6F1C/KkDGeRGyoHo1gXMg=
+		fMZ2dAE7JtGAzKqM27V6rONKIeg=
 		</data>
 		<key>Modules/SASDisplayKit.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		4mjFO3XkTEApbccMkLoHz8jGyZI=
+		On7uVg4V8XezG6lJZCxQXJy5Zoc=
 		</data>
 		<key>Modules/SASDisplayKit.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		UZfbcIqvIk8/5GtTEdnMTU/PQvQ=
+		z2ozQCIguii1OYc4aQTyQgcq67A=
 		</data>
 		<key>Modules/SASDisplayKit.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		iWl/d/PhJUIKErJ1S+8ISQPPPR8=
+		VKqgqOxpGsP54PxSPv6K+vxG11g=
 		</data>
 		<key>Modules/SASDisplayKit.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		y0luB+Lq3wdIoAHkZ4tbmKIHpKk=
+		s2LKMWPmL5bBd512ol8QNc3FnVI=
 		</data>
 		<key>Modules/SASDisplayKit.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		pXSO5eKBQ1q9hqLpQk8/BE7xro8=
+		GIaG8EA99FHNnSe3ykvRFkd1hIc=
 		</data>
 		<key>Modules/SASDisplayKit.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		y0luB+Lq3wdIoAHkZ4tbmKIHpKk=
+		s2LKMWPmL5bBd512ol8QNc3FnVI=
 		</data>
 		<key>Modules/SASDisplayKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		/aBvAJp9gr2W2zXS1NAyeLlsrh0=
+		34a5M2MS8I3UMXSgyQ8P066gSjk=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -372,14 +404,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Zzk1lbfAXVJkZSd88Uof5f5EtqOeerzvZn1HZEOQbs4=
+			HcVK8Hh8XN0FyC08mMyqGmVdsVqbwcDOWd2/r6bWY/w=
 			</data>
 		</dict>
 		<key>Headers/SASAdProgrammaticInfo.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			+O3kC29Nym9T3nd6ply6OreJW4j6+wYv3rSWnzAF43Y=
+			QWU+Pi2sWKSm9U4oep1zNwyfFKxdLOrNM1ItMD5uISA=
 			</data>
 		</dict>
 		<key>Headers/SASAdStatus.h</key>
@@ -393,7 +425,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			qWCl8GX2eV6iI7gJvF64jnHVm/SlENrzapPt5xOAjS0=
+			YOgbeTHDsOtt/Fw/56W3EJmd7gAKYkxGpjC6IE7qITI=
 			</data>
 		</dict>
 		<key>Headers/SASBannerViewDelegate.h</key>
@@ -403,25 +435,81 @@
 			FQj7OtE0zpWzGIt061pae4xq5f2N4GmWwvfz7ZX6tis=
 			</data>
 		</dict>
+		<key>Headers/SASBiddingAdFormatType.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			juHyX4flR3Fk7AxpRjNjq9fktzNLYXz8ZjiITS32TUk=
+			</data>
+		</dict>
+		<key>Headers/SASBiddingAdPrice.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			OxA0uaj9q2erQ5HgGzVSKj8c7V0wCyIhl08fzNr4EX8=
+			</data>
+		</dict>
+		<key>Headers/SASBiddingAdResponse.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			o0mOYSqdC3OTfy636Xl4jTMPeGVz6OEPzAXcN+hTgGI=
+			</data>
+		</dict>
+		<key>Headers/SASBiddingCurrency.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			Lt/vv8JIIMUwumlBjM6k12c4Mszh17shyVvDJBEc3ms=
+			</data>
+		</dict>
+		<key>Headers/SASBiddingManager.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			I3s+qn7fwhKv/CPF2g9VOvSxOEJrbJ0UcUIAOBDrDMQ=
+			</data>
+		</dict>
+		<key>Headers/SASBiddingManagerDelegate.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			BiSa5aVpuQp0TxBlf03xJqJrFtbSuu8HVDmuCI5biQ0=
+			</data>
+		</dict>
 		<key>Headers/SASConfiguration.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			UFxnmiBVuF0w09lRYP4D+9LEvCJJsBpG9wYIaT3U8Pw=
+			zuZB7TtIz3GtF7+wNfIDuG5nVlO65VIGBhr7zJ6Dggc=
+			</data>
+		</dict>
+		<key>Headers/SASDigitalServiceActConfig.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			b9RrHQon7zTY8CdRTIjSdWVKl9D3X2uE20uYfkodXes=
+			</data>
+		</dict>
+		<key>Headers/SASDigitalServiceActConfigTransparency.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			wUkt+xO8D8R4kp2PaGk+hC/2sSfVo9oyfLVrmFd9/9g=
 			</data>
 		</dict>
 		<key>Headers/SASDisplayKit-Swift.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			iZSVEY8Ppw7U0X1sPfs0YrwwucPuxDNhqQW24ASbDxs=
+			KFpAL9+xDSnv/n+tS1LwCiY/7yZLwne6nZZyWJJvHwc=
 			</data>
 		</dict>
 		<key>Headers/SASDisplayKit.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			0n83GECRo7gEj5AEYBP3NaFfmxDnT1OLi2YPZvk8R5c=
+			8vEBYlC06isLgiS1midKysV4B/7LHZvU8FDttI6ETh0=
 			</data>
 		</dict>
 		<key>Headers/SASFrameworkInfo.h</key>
@@ -435,7 +523,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ocn27N5E59qxvZtzFfnp/JgNyhTKlQaQsNZmMaq0H4w=
+			wJZHJ6BG7lew9pa2USBsghFqf7rOR6L79ODjvnaQ9Pk=
 			</data>
 		</dict>
 		<key>Headers/SASInterstitialManagerDelegate.h</key>
@@ -568,84 +656,84 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			vushgn+XNgUjFLeLVif5ex3oEcYcZmatQzPskVKeJ9o=
+			ovIcNZcZ1g3ED4CWu5rVkG+AJS5o3l7u1Lrt0Jl6hMg=
 			</data>
 		</dict>
 		<key>Modules/SASDisplayKit.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			/1N+/bbPJQOIqeuD+f4BALR67psHe5yL9uOSBSLlYrI=
+			8uMsMkn2rjgsPgCRtyw+hjrleh3P3Ejmw5dicL8CYjo=
 			</data>
 		</dict>
 		<key>Modules/SASDisplayKit.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			XCLq9eJyq09Asmb4XtIvPlvMPB2ofwZVBaWf+pZ42fM=
+			mpkqY8roGlOoNDiI21TKW1J2B6CHAZKySmNjFUJi7+s=
 			</data>
 		</dict>
 		<key>Modules/SASDisplayKit.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Jlav19+5Cs2bgUfZ7MSAA8ENLh/CZ4DsMD5hXQn5f0s=
+			32SyXaOa4NE1V/TzMVqkTWsKz8BIN6Mu6LaM4rhzyzg=
 			</data>
 		</dict>
 		<key>Modules/SASDisplayKit.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			l6hBDuZYPwRAKQulNiaG/Gon+iuusUXctG2v65gVZqw=
+			M+7EkwUUPg742bsGYxOpP2ikEGZNZik4027rhP9mFIY=
 			</data>
 		</dict>
 		<key>Modules/SASDisplayKit.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Jlav19+5Cs2bgUfZ7MSAA8ENLh/CZ4DsMD5hXQn5f0s=
+			32SyXaOa4NE1V/TzMVqkTWsKz8BIN6Mu6LaM4rhzyzg=
 			</data>
 		</dict>
 		<key>Modules/SASDisplayKit.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			GSG+MU07S7SldOh3QgyNR/oOQE8OaOwZcUXh/k5Jj/k=
+			vH2vL7sok5OSBQ7IgyujaKio0R+hVXiLURej4S9d1hI=
 			</data>
 		</dict>
 		<key>Modules/SASDisplayKit.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			XCLq9eJyq09Asmb4XtIvPlvMPB2ofwZVBaWf+pZ42fM=
+			mpkqY8roGlOoNDiI21TKW1J2B6CHAZKySmNjFUJi7+s=
 			</data>
 		</dict>
 		<key>Modules/SASDisplayKit.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			q0YXhFUnmUM0nKqQ19gGQYCTIHy5iUnHG5LoVWTdcmc=
+			wd6RE5zQHmqsuz8UAEMrtz6O2mlCRgM16U1iQUeh2w8=
 			</data>
 		</dict>
 		<key>Modules/SASDisplayKit.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			teD3fHyRZkGqM5mpVe4dd9zOUig7KOeNtcZ3xuzjn5I=
+			yp4dCVlcMp/7Hj2D9jC7Dj4VHKVPE7HQ9dCFZZnSIrA=
 			</data>
 		</dict>
 		<key>Modules/SASDisplayKit.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			q0YXhFUnmUM0nKqQ19gGQYCTIHy5iUnHG5LoVWTdcmc=
+			wd6RE5zQHmqsuz8UAEMrtz6O2mlCRgM16U1iQUeh2w8=
 			</data>
 		</dict>
 		<key>Modules/SASDisplayKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			904dvhBe80rnMeahBzNaP0LS/dupG8rgvsM44D7NUDQ=
+			eYKPPoEATLMo9xyLSsX1KSHLxfpVehZQUxF6uOBPCxc=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

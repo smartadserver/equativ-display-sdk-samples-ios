@@ -8,8 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		756C93E392A7C159D34F5515 /* Pods_SwiftSample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A7A6A7D89DAD50226AEEDF5 /* Pods_SwiftSample.framework */; };
+		7E30ED222D0735AB00E12EAA /* BannerInAppBiddingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E30ED212D07359F00E12EAA /* BannerInAppBiddingViewController.swift */; };
 		7E45B1272CA1BA9C00BE0499 /* NativeAdViewInTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E45B1262CA1BA8A00BE0499 /* NativeAdViewInTableViewController.swift */; };
 		7E45B12B2CA2E8B400BE0499 /* CustomNativeAdLayoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E45B12A2CA2E8AB00BE0499 /* CustomNativeAdLayoutView.swift */; };
+		7E7D13A82D084F5400C096DD /* InterstitialInAppBiddingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E7D13A72D084F4000C096DD /* InterstitialInAppBiddingViewController.swift */; };
 		7E8E6BAF2AD6D0B400C82325 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E8E6BAE2AD6D0B400C82325 /* AppDelegate.swift */; };
 		7E8E6BB12AD6D0B400C82325 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E8E6BB02AD6D0B400C82325 /* SceneDelegate.swift */; };
 		7E8E6BB32AD6D0B400C82325 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E8E6BB22AD6D0B400C82325 /* MainViewController.swift */; };
@@ -40,8 +42,10 @@
 		3A7A6A7D89DAD50226AEEDF5 /* Pods_SwiftSample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftSample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		64CB397B520A3A47141E4791 /* Pods-SwiftSample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftSample.debug.xcconfig"; path = "Target Support Files/Pods-SwiftSample/Pods-SwiftSample.debug.xcconfig"; sourceTree = "<group>"; };
 		7C70C348F4E665400C62C6C8 /* Pods-SwiftSample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftSample.release.xcconfig"; path = "Target Support Files/Pods-SwiftSample/Pods-SwiftSample.release.xcconfig"; sourceTree = "<group>"; };
+		7E30ED212D07359F00E12EAA /* BannerInAppBiddingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannerInAppBiddingViewController.swift; sourceTree = "<group>"; };
 		7E45B1262CA1BA8A00BE0499 /* NativeAdViewInTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NativeAdViewInTableViewController.swift; sourceTree = "<group>"; };
 		7E45B12A2CA2E8AB00BE0499 /* CustomNativeAdLayoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNativeAdLayoutView.swift; sourceTree = "<group>"; };
+		7E7D13A72D084F4000C096DD /* InterstitialInAppBiddingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterstitialInAppBiddingViewController.swift; sourceTree = "<group>"; };
 		7E8E6BAB2AD6D0B400C82325 /* SwiftSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E8E6BAE2AD6D0B400C82325 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7E8E6BB02AD6D0B400C82325 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -157,8 +161,10 @@
 			isa = PBXGroup;
 			children = (
 				7E8E6BCA2AD6DB1700C82325 /* BannerViewController.swift */,
+				7E30ED212D07359F00E12EAA /* BannerInAppBiddingViewController.swift */,
 				7E8E6BCE2AD6EEFE00C82325 /* BannerViewInTableViewController.swift */,
 				7E8E6BCC2AD6DC4600C82325 /* InterstitialViewController.swift */,
+				7E7D13A72D084F4000C096DD /* InterstitialInAppBiddingViewController.swift */,
 				7E45B1262CA1BA8A00BE0499 /* NativeAdViewInTableViewController.swift */,
 			);
 			path = SampleControllers;
@@ -292,8 +298,10 @@
 				7E45B1272CA1BA9C00BE0499 /* NativeAdViewInTableViewController.swift in Sources */,
 				7E8E6BCB2AD6DB1700C82325 /* BannerViewController.swift in Sources */,
 				7E45B12B2CA2E8B400BE0499 /* CustomNativeAdLayoutView.swift in Sources */,
+				7E7D13A82D084F5400C096DD /* InterstitialInAppBiddingViewController.swift in Sources */,
 				7E8E6BB32AD6D0B400C82325 /* MainViewController.swift in Sources */,
 				7E8E6BCF2AD6EEFE00C82325 /* BannerViewInTableViewController.swift in Sources */,
+				7E30ED222D0735AB00E12EAA /* BannerInAppBiddingViewController.swift in Sources */,
 				7E8E6BCD2AD6DC4600C82325 /* InterstitialViewController.swift in Sources */,
 				7E8E6BC42AD6D59E00C82325 /* MenuItem.swift in Sources */,
 				7E8E6BAF2AD6D0B400C82325 /* AppDelegate.swift in Sources */,

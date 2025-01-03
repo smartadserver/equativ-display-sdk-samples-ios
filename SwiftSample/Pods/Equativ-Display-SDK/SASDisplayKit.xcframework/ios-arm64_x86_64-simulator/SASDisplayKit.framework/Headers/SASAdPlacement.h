@@ -48,6 +48,14 @@ typedef NS_ENUM(NSInteger, SASAdPlacementTest) {
 
     /// A placement that will return a native ad with icon and cover.
     SASAdPlacementTestNativeAdIconAndCover,
+    
+#pragma mark - In-app bidding
+    
+    /// A placement that will return an in-app bidding response for a banner ad format.
+    SASAdPlacementInappBiddingBanner,
+    
+    /// A placement that will return an in-app bidding response for an interstitial ad format.
+    SASAdPlacementInappBiddingInterstitial,
 };
     
 /**
@@ -69,7 +77,10 @@ typedef NS_ENUM(NSInteger, SASAdPlacementTest) {
 /// The format id that should be used when loading an ad.
 @property (readonly) NSInteger formatId;
 
-/// A set of keywords that will be used when loading an ad to receive more relevant advertising if necessary, nil otherwise.
+/// A set of keywords that will be used when loading an ad to receive more relevant advertising.
+///
+/// Keywords are typically used to target inventory in a very granular way.
+/// They should be formatted as semicolon-separated key-value pairs (e.g. “gender=female;age=27”).
 @property (readonly, nullable) NSString *keywordTargeting;
 
 /// An array of SASSellerDefinedAudience objects related to this SASAdPlacement, if any. Nil otherwise.

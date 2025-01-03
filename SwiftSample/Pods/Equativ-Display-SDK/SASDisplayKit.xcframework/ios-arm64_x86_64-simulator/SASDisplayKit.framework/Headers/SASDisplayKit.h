@@ -32,6 +32,8 @@ FOUNDATION_EXPORT const unsigned char SASDisplayKitVersionString[];
 #import <SASDisplayKit/SASAdInfo.h>
 #import <SASDisplayKit/SASAdProgrammaticInfo.h>
 #import <SASDisplayKit/SASParallaxMargins.h>
+#import <SASDisplayKit/SASDigitalServiceActConfig.h>
+#import <SASDisplayKit/SASDigitalServiceActConfigTransparency.h>
 
 // Mediation
 #import <SASDisplayKit/SASMediationBannerAdapter.h>
@@ -46,6 +48,14 @@ FOUNDATION_EXPORT const unsigned char SASDisplayKitVersionString[];
 #import <SASDisplayKit/SASViewAsset.h>
 #import <SASDisplayKit/SASNativeAdViewBinder.h>
 #import <SASDisplayKit/SASNativeAdViewBinderBuilder.h>
+
+// In-app bidding
+#import <SASDisplayKit/SASBiddingManager.h>
+#import <SASDisplayKit/SASBiddingManagerDelegate.h>
+#import <SASDisplayKit/SASBiddingAdFormatType.h>
+#import <SASDisplayKit/SASBiddingAdPrice.h>
+#import <SASDisplayKit/SASBiddingAdResponse.h>
+#import <SASDisplayKit/SASBiddingCurrency.h>
 
 // Misc UI components
 #import <SASDisplayKit/SASRatingBar.h>

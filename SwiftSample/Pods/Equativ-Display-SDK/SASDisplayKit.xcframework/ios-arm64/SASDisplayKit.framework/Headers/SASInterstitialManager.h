@@ -9,6 +9,7 @@
 #import <UIKit/UIKit.h>
 #import <SASDisplayKit/SASInterstitialManagerDelegate.h>
 #import <SASDisplayKit/SASAdPlacement.h>
+#import <SASDisplayKit/SASBiddingAdResponse.h>
 #import <SASDisplayKit/SASAdStatus.h>
 
 NS_ASSUME_NONNULL_BEGIN
@@ -34,6 +35,19 @@ NS_ASSUME_NONNULL_BEGIN
  @return An initialized instance of SASInterstitialManager.
  */
 - (instancetype)initWithAdPlacement:(SASAdPlacement *)adPlacement NS_DESIGNATED_INITIALIZER;
+
+/**
+ Initialize a new instance of SASInterstitialManager using a bidding ad response.
+ 
+ You can create a bidding ad response using the SASBiddingManager class.
+ 
+ @note A bidding ad response can only be used once: you must recreate a new instance of the interstitial manager
+ with a new bidding ad response after each 'loadAd' call.
+
+ @param biddingAdResponse The bidding ad response that must be rendered.
+ @return An initialized instance of SASInterstitialManager.
+ */
+- (instancetype)initWithBiddingAdResponse:(SASBiddingAdResponse *)biddingAdResponse NS_DESIGNATED_INITIALIZER;
 
 /**
  Attempt to load an ad using the provided ad placement.

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="23094" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="aqs-cP-BJN">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="23504" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="aqs-cP-BJN">
     <device id="retina6_12" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23084"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23506"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -47,6 +47,8 @@
                         <segue destination="y3d-LD-c3H" kind="show" identifier="InterstitialViewControllerSegue" id="ewR-of-bqb"/>
                         <segue destination="85X-vf-Xv0" kind="show" identifier="BannerViewInTableViewControllerSegue" id="AaV-aN-R9p"/>
                         <segue destination="M8D-d5-Brz" kind="show" identifier="NativeAdViewInTableViewControllerSegue" id="dXJ-q6-rcy"/>
+                        <segue destination="08Y-lc-mch" kind="show" identifier="BannerInAppBiddingViewControllerSegue" id="sqc-oE-1vx"/>
+                        <segue destination="y4g-Cv-YML" kind="show" identifier="InterstitialInAppBiddingViewControllerSegue" id="dBe-0d-V3b"/>
                     </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="pXl-Hi-Fgj" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -102,7 +104,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="rRt-Y0-Dwq" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2179" y="-713"/>
+            <point key="canvasLocation" x="2178" y="-1287"/>
         </scene>
         <!--Banner in Table View-->
         <scene sceneID="Cfk-2c-hJp">
@@ -287,7 +289,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ZNg-OV-8IF" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2179" y="849"/>
+            <point key="canvasLocation" x="2178" y="1473"/>
         </scene>
         <!--Native Ad in Table View-->
         <scene sceneID="lpD-kv-pbx">
@@ -416,7 +418,147 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="vGK-Tp-vDE" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2179" y="1577"/>
+            <point key="canvasLocation" x="2178" y="2188"/>
+        </scene>
+        <!--Banner (bidding)-->
+        <scene sceneID="1DD-5R-MqX">
+            <objects>
+                <viewController id="08Y-lc-mch" customClass="BannerInAppBiddingViewController" customModule="SwiftSample" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="9dY-Dm-3hk">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Check implementation in BannerInAppBiddingViewController" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="z7Q-gf-MzW">
+                                <rect key="frame" x="0.0" y="793.66666666666663" width="393" height="14.333333333333371"/>
+                                <fontDescription key="fontDescription" type="italicSystem" pointSize="12"/>
+                                <color key="textColor" systemColor="secondaryLabelColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RAo-vd-xJH">
+                                <rect key="frame" x="71.666666666666686" y="288.33333333333331" width="250" height="35"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="250" id="MnN-HM-qJl"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="gray" title="Render banner bidding ad"/>
+                                <connections>
+                                    <action selector="renderBiddingAdAction:" destination="08Y-lc-mch" eventType="touchUpInside" id="7aq-4b-Z6G"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="b6M-xk-voP">
+                                <rect key="frame" x="71.666666666666686" y="183" width="250" height="35"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="250" id="qWB-Ie-VWe"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="gray" title="Load banner bidding ad"/>
+                                <connections>
+                                    <action selector="loadBiddingAdAction:" destination="08Y-lc-mch" eventType="touchUpInside" id="Csz-R4-GXS"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="(no bidding ad response loaded)" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6ZO-Zi-M41">
+                                <rect key="frame" x="16" y="243" width="361" height="20.333333333333314"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="ejl-09-qHt"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="b6M-xk-voP" firstAttribute="top" secondItem="ejl-09-qHt" secondAttribute="top" constant="80" id="4fD-89-5Ms"/>
+                            <constraint firstItem="6ZO-Zi-M41" firstAttribute="top" secondItem="b6M-xk-voP" secondAttribute="bottom" constant="25" id="5hF-KQ-xu2"/>
+                            <constraint firstItem="z7Q-gf-MzW" firstAttribute="leading" secondItem="ejl-09-qHt" secondAttribute="leading" id="6s5-2c-zpy"/>
+                            <constraint firstItem="ejl-09-qHt" firstAttribute="bottom" secondItem="z7Q-gf-MzW" secondAttribute="bottom" constant="10" id="Juq-iS-LGV"/>
+                            <constraint firstItem="RAo-vd-xJH" firstAttribute="top" secondItem="6ZO-Zi-M41" secondAttribute="bottom" constant="25" id="MhA-Fu-qUE"/>
+                            <constraint firstItem="ejl-09-qHt" firstAttribute="trailing" secondItem="z7Q-gf-MzW" secondAttribute="trailing" id="OwM-5T-lPL"/>
+                            <constraint firstItem="ejl-09-qHt" firstAttribute="trailing" secondItem="6ZO-Zi-M41" secondAttribute="trailing" constant="16" id="Pca-I8-DE4"/>
+                            <constraint firstItem="6ZO-Zi-M41" firstAttribute="leading" secondItem="ejl-09-qHt" secondAttribute="leading" constant="16" id="RyN-Ww-0jf"/>
+                            <constraint firstItem="6ZO-Zi-M41" firstAttribute="centerX" secondItem="ejl-09-qHt" secondAttribute="centerX" id="aPp-8j-TBh"/>
+                            <constraint firstItem="b6M-xk-voP" firstAttribute="centerX" secondItem="ejl-09-qHt" secondAttribute="centerX" id="eXW-JT-8bS"/>
+                            <constraint firstItem="RAo-vd-xJH" firstAttribute="centerX" secondItem="ejl-09-qHt" secondAttribute="centerX" id="erH-dP-LgF"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Banner (bidding)" largeTitleDisplayMode="never" id="aUM-2q-2g0"/>
+                    <connections>
+                        <outlet property="loadBiddingAdButton" destination="b6M-xk-voP" id="Ibu-Sf-eSH"/>
+                        <outlet property="loadingStatusLabel" destination="6ZO-Zi-M41" id="A31-2m-wwk"/>
+                        <outlet property="renderBiddingAdButton" destination="RAo-vd-xJH" id="DGi-W7-1pq"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="OXi-vt-tmh" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2178" y="-613"/>
+        </scene>
+        <!--Interstitial (bidding)-->
+        <scene sceneID="WKJ-Uv-P7Y">
+            <objects>
+                <viewController id="y4g-Cv-YML" customClass="InterstitialInAppBiddingViewController" customModule="SwiftSample" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="P1D-Hk-1rb">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Check implementation in InterstitialInAppBiddingViewController" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cnh-Kf-tsf">
+                                <rect key="frame" x="0.0" y="793" width="393" height="15"/>
+                                <fontDescription key="fontDescription" type="italicSystem" pointSize="12"/>
+                                <color key="textColor" systemColor="secondaryLabelColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CrH-bD-IpH">
+                                <rect key="frame" x="71.666666666666686" y="288.33333333333331" width="250" height="35"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="250" id="UUI-rj-JJq"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="gray" title="Show interstitial bidding ad"/>
+                                <connections>
+                                    <action selector="showBiddingAdAction:" destination="y4g-Cv-YML" eventType="touchUpInside" id="voK-7m-jQe"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="A3R-cm-mY0">
+                                <rect key="frame" x="71.666666666666686" y="183" width="250" height="35"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="250" id="NpA-qV-i8C"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="gray" title="Load and render bidding ad"/>
+                                <connections>
+                                    <action selector="loadAndRenderBiddingAdAction:" destination="y4g-Cv-YML" eventType="touchUpInside" id="WjY-HV-Yup"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="(no bidding ad response loaded)" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DmQ-xY-0Tl">
+                                <rect key="frame" x="16" y="243" width="361" height="20.333333333333314"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="vv9-7c-Lcn"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="CrH-bD-IpH" firstAttribute="centerX" secondItem="vv9-7c-Lcn" secondAttribute="centerX" id="0RS-Zo-nz5"/>
+                            <constraint firstItem="CrH-bD-IpH" firstAttribute="top" secondItem="DmQ-xY-0Tl" secondAttribute="bottom" constant="25" id="734-bw-RqM"/>
+                            <constraint firstItem="A3R-cm-mY0" firstAttribute="centerX" secondItem="vv9-7c-Lcn" secondAttribute="centerX" id="9NE-uN-TKI"/>
+                            <constraint firstItem="cnh-Kf-tsf" firstAttribute="leading" secondItem="vv9-7c-Lcn" secondAttribute="leading" id="CMH-Zs-uk8"/>
+                            <constraint firstItem="DmQ-xY-0Tl" firstAttribute="centerX" secondItem="vv9-7c-Lcn" secondAttribute="centerX" id="IVe-VC-P8a"/>
+                            <constraint firstItem="DmQ-xY-0Tl" firstAttribute="leading" secondItem="vv9-7c-Lcn" secondAttribute="leading" constant="16" id="IhL-ws-91f"/>
+                            <constraint firstItem="DmQ-xY-0Tl" firstAttribute="top" secondItem="A3R-cm-mY0" secondAttribute="bottom" constant="25" id="RfZ-zR-pnn"/>
+                            <constraint firstItem="vv9-7c-Lcn" firstAttribute="trailing" secondItem="cnh-Kf-tsf" secondAttribute="trailing" id="WMi-Oh-qgk"/>
+                            <constraint firstItem="vv9-7c-Lcn" firstAttribute="bottom" secondItem="cnh-Kf-tsf" secondAttribute="bottom" constant="10" id="eAe-Wy-OcB"/>
+                            <constraint firstItem="A3R-cm-mY0" firstAttribute="top" secondItem="vv9-7c-Lcn" secondAttribute="top" constant="80" id="gus-2S-Z4w"/>
+                            <constraint firstItem="vv9-7c-Lcn" firstAttribute="trailing" secondItem="DmQ-xY-0Tl" secondAttribute="trailing" constant="16" id="obe-IG-KnH"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Interstitial (bidding)" largeTitleDisplayMode="never" id="vEZ-pb-wRn"/>
+                    <connections>
+                        <outlet property="loadAndRenderBiddingAdButton" destination="A3R-cm-mY0" id="dNG-ZG-cC3"/>
+                        <outlet property="loadingStatusLabel" destination="DmQ-xY-0Tl" id="NOg-xK-x6s"/>
+                        <outlet property="showBiddingAdButton" destination="CrH-bD-IpH" id="gR4-Mc-nYC"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="EtP-9W-VyN" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2178" y="768"/>
         </scene>
     </scenes>
     <resources>

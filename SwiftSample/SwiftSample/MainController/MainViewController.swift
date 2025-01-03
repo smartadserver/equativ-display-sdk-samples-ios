@@ -50,12 +50,12 @@ class MainViewController: UITableViewController {
                 // in the app 'Info.plist' file.
                 ATTrackingManager.requestTrackingAuthorization(completionHandler: { status in
                     if status == .authorized {
-                        NSLog("[ATT] The tracking authorization has been granted by the user!")
+                        print("[ATT] The tracking authorization has been granted by the user!")
                         
                         // The tracking authorization has been granted!
                         // The SDK will be able to use the device IDFA during ad calls.
                     } else {
-                        NSLog("[ATT] The tracking authorization is not granted!")
+                        print("[ATT] The tracking authorization is not granted!")
                         
                         // The tracking authorization has not been granted!
                         // The SDK will not track the user.
@@ -70,8 +70,10 @@ class MainViewController: UITableViewController {
     
     func initializeItems() {
         addItemInItemsArray("Banner", segueIdentifier: "BannerViewControllerSegue")
+        addItemInItemsArray("Banner (in-app bidding)", segueIdentifier: "BannerInAppBiddingViewControllerSegue")
         addItemInItemsArray("Banner in Table View", segueIdentifier: "BannerViewInTableViewControllerSegue")
         addItemInItemsArray("Interstitial", segueIdentifier: "InterstitialViewControllerSegue")
+        addItemInItemsArray("Interstitial (in-app bidding)", segueIdentifier: "InterstitialInAppBiddingViewControllerSegue")
         addItemInItemsArray("Native ad in Table View", segueIdentifier: "NativeAdViewInTableViewControllerSegue")
         
         tableView.reloadData()

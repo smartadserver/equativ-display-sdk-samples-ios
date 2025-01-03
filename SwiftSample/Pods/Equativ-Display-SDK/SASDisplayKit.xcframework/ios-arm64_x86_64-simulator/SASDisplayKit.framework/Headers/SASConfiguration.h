@@ -11,6 +11,7 @@
 NS_ASSUME_NONNULL_BEGIN
 
 @class SASSecondaryImplementationInfo;
+@class SASDigitalServiceActConfig;
 
 /**
  Hold the configuration of the Display SDK.
@@ -28,6 +29,9 @@ NS_ASSUME_NONNULL_BEGIN
 
 /// Ad call timeout in seconds.
 @property (assign) NSTimeInterval adCallTimeout;
+
+/// Optional Digital Service Act configuration that will sent in every ad calls.
+@property (strong, nullable) SASDigitalServiceActConfig *digitalServiceActConfig;
 
 /// Additional implementation information that can be provided to the SDK when integrated as secondary SDK.
 @property (strong, nullable) SASSecondaryImplementationInfo *secondaryImplementationInfo;
