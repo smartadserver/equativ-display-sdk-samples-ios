@@ -42,6 +42,19 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // If you deploy your app in a country implementing one of these privacy laws, remember to install and setup
         // an IAB compliant CMP!
         
+        // -----------------------------------------------
+        // Digital Service Act (DSA)
+        // -----------------------------------------------
+
+        // The SDK is able to handle Digital Service Act. You will find more information about it in our documentation.
+        //
+        // Here is an example of how to set up your DSA configuration for the Equativ Display SDK.
+        //
+        // SASConfiguration.shared.digitalServiceActConfig = SASDigitalServiceActConfig(dsaRequired: .required,
+        //                                                                              dataToPub: .optionalToSendTransparencyData,
+        //                                                                              transparency: [SASDigitalServiceActConfigTransparency(domain: "https://yourdomain.com", dsaParams: [1, 2])])
+
+        
         return true
     }
 

@@ -135,10 +135,10 @@ class BannerViewInTableViewController : UITableViewController, SASBannerViewDele
         let cell = tableView.dequeueReusableCell(withIdentifier: "adCell")!
         
         // Adding the banner view to the cell
+        // Note: always remove the banner before adding it to a cell again in order to prevent
+        // previous constraints for interfering with the newly added ones in case of ad refresh…
+        bannerView.removeFromSuperview()
         cell.contentView.addSubview(bannerView)
-        
-        // Removing previous banner view constraints if any
-        bannerView.removeConstraints(bannerViewConstraints)
         
         // Setting the main banner constraints
         bannerView.translatesAutoresizingMaskIntoConstraints = false

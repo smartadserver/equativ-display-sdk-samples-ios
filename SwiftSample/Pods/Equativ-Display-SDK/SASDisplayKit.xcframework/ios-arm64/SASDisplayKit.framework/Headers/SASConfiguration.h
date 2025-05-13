@@ -33,6 +33,13 @@ NS_ASSUME_NONNULL_BEGIN
 /// Optional Digital Service Act configuration that will sent in every ad calls.
 @property (strong, nullable) SASDigitalServiceActConfig *digitalServiceActConfig;
 
+/// Either the creative feedback button is displayed by the Equativ Display SDK or not.
+///
+/// TRUE by default. If FALSE, the Equativ Display SDK will not display the creative feedback button while rendering the ad.
+/// In such case, Equativ transfers responsability to the publisher to let users provide feedbacks about the ad.
+/// Equativ also transfers EU legal obligation to display Digital Service Act information (available in SASAdInfo object) to end users.
+@property (assign, getter=isCreativeFeedbackButtonDisplayed) BOOL creativeFeedbackButtonDisplayed NS_SWIFT_NAME(creativeFeedbackButtonDisplayed);
+
 /// Additional implementation information that can be provided to the SDK when integrated as secondary SDK.
 @property (strong, nullable) SASSecondaryImplementationInfo *secondaryImplementationInfo;
 

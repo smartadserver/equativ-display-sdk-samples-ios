@@ -16,17 +16,21 @@
 		<data>
 		7m+nLGcrzUGY6MEEPqoDJ5RVL1k=
 		</data>
+		<key>Headers/SASAdDigitalServiceActInfo.h</key>
+		<data>
+		Xs5V3hOA20m2BQU9UOzd63fBkIk=
+		</data>
 		<key>Headers/SASAdError.h</key>
 		<data>
 		GSRvhqZQM2VgfCIKof/jSAWtNl4=
 		</data>
 		<key>Headers/SASAdInfo.h</key>
 		<data>
-		OVhPN9VmOLvcHFpvM+QwbO8kOYI=
+		lo54v22KfsQxwrZ0AuoruAvU81A=
 		</data>
 		<key>Headers/SASAdPlacement.h</key>
 		<data>
-		SbXurJDmHvK0xqBZhxJgDl50LBc=
+		x6KEd4KtoGEORF7eysgzyVSyNZY=
 		</data>
 		<key>Headers/SASAdProgrammaticInfo.h</key>
 		<data>
@@ -70,11 +74,19 @@
 		</data>
 		<key>Headers/SASConfiguration.h</key>
 		<data>
-		FyLetXM4mOgz0JO30nD12erlXZE=
+		76L5l3rfWU9sUqYtztmrsnWAaqk=
 		</data>
 		<key>Headers/SASDigitalServiceActConfig.h</key>
 		<data>
 		BwLREBBzgXTVRSoYyyqbOGaYwSI=
+		</data>
+		<key>Headers/SASDigitalServiceActConfigAdRender.h</key>
+		<data>
+		qRAtaJW+3zZSDDl6Pzz4v99qTKc=
+		</data>
+		<key>Headers/SASDigitalServiceActConfigPubRender.h</key>
+		<data>
+		1ZOf1YpYTehFcbHYzgIyV3Eu3DA=
 		</data>
 		<key>Headers/SASDigitalServiceActConfigTransparency.h</key>
 		<data>
@@ -86,7 +98,7 @@
 		</data>
 		<key>Headers/SASDisplayKit.h</key>
 		<data>
-		NBwAwzLP8HmQM59EYIHgdUHUTMk=
+		S/dXpbSt7kNpEzYlV0yb/cbMTsY=
 		</data>
 		<key>Headers/SASFrameworkInfo.h</key>
 		<data>
@@ -170,15 +182,15 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		mL3rH409tWl/45m6in8Ky+0pbtk=
+		J609YANMjv6XUdJUTmjvyV25fMU=
 		</data>
 		<key>Modules/SASDisplayKit.swiftmodule/Project/arm64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		y/x+XRWfJUt8zhg0w0zBe1gpjf4=
+		CcpF2Wp+uYvcLf81u6lDXNVdvT4=
 		</data>
 		<key>Modules/SASDisplayKit.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		VPo939Bu8LiMhn1JW6PX6XOWCKc=
+		OwHt3lMjwsp2juLBahIXy5xvFIA=
 		</data>
 		<key>Modules/SASDisplayKit.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -386,6 +398,13 @@
 			x7v81dxLYH1QQPzGcrcDC+IieJKLiVeb+Bb44tXX/a4=
 			</data>
 		</dict>
+		<key>Headers/SASAdDigitalServiceActInfo.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			pWxxG9dRXSfyRfk0oxnv+XzN1u/jgHGzYpzHu2mp7Jc=
+			</data>
+		</dict>
 		<key>Headers/SASAdError.h</key>
 		<dict>
 			<key>hash2</key>
@@ -397,14 +416,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			kWeigynLtjpKWA9mv4LnOWolBZ5dl3GjlqDVHiR1m88=
+			gxTBXbspOjCu6aN1/vouwBbFcbGJX/gwmlCxNxz/bn4=
 			</data>
 		</dict>
 		<key>Headers/SASAdPlacement.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			HcVK8Hh8XN0FyC08mMyqGmVdsVqbwcDOWd2/r6bWY/w=
+			QhRwcU8P3hNkDbLoWAyt5STDqjA8JSubiOHZIZOxX+M=
 			</data>
 		</dict>
 		<key>Headers/SASAdProgrammaticInfo.h</key>
@@ -481,7 +500,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			zuZB7TtIz3GtF7+wNfIDuG5nVlO65VIGBhr7zJ6Dggc=
+			D/Lq0AnjfzyA/Ed4PWWsr4ZYrl1qw2o8s9IdKhF0l/0=
 			</data>
 		</dict>
 		<key>Headers/SASDigitalServiceActConfig.h</key>
@@ -489,6 +508,20 @@
 			<key>hash2</key>
 			<data>
 			b9RrHQon7zTY8CdRTIjSdWVKl9D3X2uE20uYfkodXes=
+			</data>
+		</dict>
+		<key>Headers/SASDigitalServiceActConfigAdRender.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			UvZJLqLvMC98dxOQ3hf5aGgoaJf68+dF2TD6cvJrFC8=
+			</data>
+		</dict>
+		<key>Headers/SASDigitalServiceActConfigPubRender.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			O4+CC3Fs276dGNdLmLYibS0oEjw4MAAnfGuN6cTixdY=
 			</data>
 		</dict>
 		<key>Headers/SASDigitalServiceActConfigTransparency.h</key>
@@ -509,7 +542,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			8vEBYlC06isLgiS1midKysV4B/7LHZvU8FDttI6ETh0=
+			X5dfIIWHBwfMkXl5y/PJpzHln25ZH0cIvvj+q7XiAIc=
 			</data>
 		</dict>
 		<key>Headers/SASFrameworkInfo.h</key>
@@ -656,14 +689,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ovIcNZcZ1g3ED4CWu5rVkG+AJS5o3l7u1Lrt0Jl6hMg=
+			/YmOcd1qmYgwAN3dLq+PQRDH/VJbKYnqb/SEkjQIuMk=
 			</data>
 		</dict>
 		<key>Modules/SASDisplayKit.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			8uMsMkn2rjgsPgCRtyw+hjrleh3P3Ejmw5dicL8CYjo=
+			gv4t5eoswLGaQ9SgA5W5/bTY8dnjBYbZ+PX3zKTk8lo=
 			</data>
 		</dict>
 		<key>Modules/SASDisplayKit.swiftmodule/arm64-apple-ios-simulator.abi.json</key>

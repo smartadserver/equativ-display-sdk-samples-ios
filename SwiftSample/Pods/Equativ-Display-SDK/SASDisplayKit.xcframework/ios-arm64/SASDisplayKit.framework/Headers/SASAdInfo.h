@@ -11,6 +11,7 @@
 NS_ASSUME_NONNULL_BEGIN
 
 @class SASAdProgrammaticInfo;
+@class SASAdDigitalServiceActInfo;
 
 /// Model class centralizing useful information for publishers.
 @interface SASAdInfo : NSObject
@@ -26,6 +27,12 @@ NS_ASSUME_NONNULL_BEGIN
 
 /// All programmatic info corresponding to this ad if available, nil otherwise.
 @property (readonly, nullable) SASAdProgrammaticInfo *programmaticInfo;
+
+/// All digital service act info corresponding to this ad if available, nil otherwise.
+@property (readonly, nullable) SASAdDigitalServiceActInfo *digitalServiceActInfo;
+
+/// Dictionary containing all extra parameters of the ad that is not already handled by a dedicated property.
+@property (readonly) NSDictionary<NSString *, NSObject *> *extraParameters;
 
 - (instancetype)init NS_UNAVAILABLE;
 

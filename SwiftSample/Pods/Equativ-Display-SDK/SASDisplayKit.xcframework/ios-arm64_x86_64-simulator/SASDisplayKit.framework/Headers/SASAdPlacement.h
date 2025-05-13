@@ -52,10 +52,10 @@ typedef NS_ENUM(NSInteger, SASAdPlacementTest) {
 #pragma mark - In-app bidding
     
     /// A placement that will return an in-app bidding response for a banner ad format.
-    SASAdPlacementInappBiddingBanner,
+    SASAdPlacementTestInappBiddingBanner,
     
     /// A placement that will return an in-app bidding response for an interstitial ad format.
-    SASAdPlacementInappBiddingInterstitial,
+    SASAdPlacementTestInappBiddingInterstitial,
 };
     
 /**

@@ -30,9 +30,12 @@ FOUNDATION_EXPORT const unsigned char SASDisplayKitVersionString[];
 #import <SASDisplayKit/SASAdStatus.h>
 #import <SASDisplayKit/SASAdError.h>
 #import <SASDisplayKit/SASAdInfo.h>
+#import <SASDisplayKit/SASAdDigitalServiceActInfo.h>
 #import <SASDisplayKit/SASAdProgrammaticInfo.h>
 #import <SASDisplayKit/SASParallaxMargins.h>
 #import <SASDisplayKit/SASDigitalServiceActConfig.h>
+#import <SASDisplayKit/SASDigitalServiceActConfigAdRender.h>
+#import <SASDisplayKit/SASDigitalServiceActConfigPubRender.h>
 #import <SASDisplayKit/SASDigitalServiceActConfigTransparency.h>
 
 // Mediation
