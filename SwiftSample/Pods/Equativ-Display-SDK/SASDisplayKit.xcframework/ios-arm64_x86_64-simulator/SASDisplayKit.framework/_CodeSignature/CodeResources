@@ -6,7 +6,7 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		Dvqtf/jNuT7W+xK1pF+VZ9JVDSQ=
+		vyr3zdU8RAInvMsuQzzWPZd+j3o=
 		</data>
 		<key>Equativ-Display-SDK.podspec</key>
 		<data>
@@ -94,7 +94,7 @@
 		</data>
 		<key>Headers/SASDisplayKit-Swift.h</key>
 		<data>
-		I6cTBfKQujtmWlQwFtPvxiXmf0A=
+		MB/tEymtcLZBiFDXUfGLfLGifII=
 		</data>
 		<key>Headers/SASDisplayKit.h</key>
 		<data>
@@ -182,15 +182,15 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		J609YANMjv6XUdJUTmjvyV25fMU=
+		YXx16Z+FxjehcYuLuVc28L7ef3s=
 		</data>
 		<key>Modules/SASDisplayKit.swiftmodule/Project/arm64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		CcpF2Wp+uYvcLf81u6lDXNVdvT4=
+		C1g7MLCwsnHaT5KHE2+OfppdSOg=
 		</data>
 		<key>Modules/SASDisplayKit.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		OwHt3lMjwsp2juLBahIXy5xvFIA=
+		on6cacAuPcWnwAj45soLrDvLzaw=
 		</data>
 		<key>Modules/SASDisplayKit.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -198,19 +198,19 @@
 		</data>
 		<key>Modules/SASDisplayKit.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		On7uVg4V8XezG6lJZCxQXJy5Zoc=
+		5bAUppmf3z1qjG+u/2hY3hSN79Q=
 		</data>
 		<key>Modules/SASDisplayKit.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		fMZ2dAE7JtGAzKqM27V6rONKIeg=
+		okgHJOBEXnf42VIBt8gBa3wYtKw=
 		</data>
 		<key>Modules/SASDisplayKit.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		On7uVg4V8XezG6lJZCxQXJy5Zoc=
+		5bAUppmf3z1qjG+u/2hY3hSN79Q=
 		</data>
 		<key>Modules/SASDisplayKit.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		z2ozQCIguii1OYc4aQTyQgcq67A=
+		USOxZn4LTc3FWMt5vIeTo2jnzG8=
 		</data>
 		<key>Modules/SASDisplayKit.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -218,19 +218,19 @@
 		</data>
 		<key>Modules/SASDisplayKit.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		s2LKMWPmL5bBd512ol8QNc3FnVI=
+		ATYqXOnTmUbr02Y0IyLDzzjeVDk=
 		</data>
 		<key>Modules/SASDisplayKit.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		GIaG8EA99FHNnSe3ykvRFkd1hIc=
+		hNvT/CF88vZSlFsttHiThxfc5Yc=
 		</data>
 		<key>Modules/SASDisplayKit.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		s2LKMWPmL5bBd512ol8QNc3FnVI=
+		ATYqXOnTmUbr02Y0IyLDzzjeVDk=
 		</data>
 		<key>Modules/SASDisplayKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		34a5M2MS8I3UMXSgyQ8P066gSjk=
+		xhAm3m1J8qe3auZfe/dFdVa8dUA=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -381,7 +381,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			9gQcZb39MkV7sQijbANRQBrdhJL/4jKfa07nKSIwLlM=
+			3IMrusD8seHiQ2FuRryfKzVSjW4l1Nj4YwINGRuyXrE=
 			</data>
 		</dict>
 		<key>Equativ-Display-SDK.podspec</key>
@@ -535,7 +535,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			KFpAL9+xDSnv/n+tS1LwCiY/7yZLwne6nZZyWJJvHwc=
+			xwvl6OwYvQkV8C75EO+aJyR7/0LkGcdgvo3wTUqTNDA=
 			</data>
 		</dict>
 		<key>Headers/SASDisplayKit.h</key>
@@ -689,14 +689,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			/YmOcd1qmYgwAN3dLq+PQRDH/VJbKYnqb/SEkjQIuMk=
+			UhN1W5juD6kGdX0faxFZy00QNiIbK5rsjKgy85zltDw=
 			</data>
 		</dict>
 		<key>Modules/SASDisplayKit.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			gv4t5eoswLGaQ9SgA5W5/bTY8dnjBYbZ+PX3zKTk8lo=
+			NI1lZhLEcOzjaYMOs+OqTU3l+Yic5jD61oJMLJL5L2w=
 			</data>
 		</dict>
 		<key>Modules/SASDisplayKit.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
@@ -710,28 +710,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			32SyXaOa4NE1V/TzMVqkTWsKz8BIN6Mu6LaM4rhzyzg=
+			5RiI+EiAFHay1FBpvPnxQ6hMfWM0WFWMPL3se1mrTFY=
 			</data>
 		</dict>
 		<key>Modules/SASDisplayKit.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			M+7EkwUUPg742bsGYxOpP2ikEGZNZik4027rhP9mFIY=
+			rkbbZD/vMkiC7W/NZ+sO0p9Qf9h023GDKYkcXgc7WTQ=
 			</data>
 		</dict>
 		<key>Modules/SASDisplayKit.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			32SyXaOa4NE1V/TzMVqkTWsKz8BIN6Mu6LaM4rhzyzg=
+			5RiI+EiAFHay1FBpvPnxQ6hMfWM0WFWMPL3se1mrTFY=
 			</data>
 		</dict>
 		<key>Modules/SASDisplayKit.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			vH2vL7sok5OSBQ7IgyujaKio0R+hVXiLURej4S9d1hI=
+			VL2epB4MJzuYgpybp2ZyL/nW9yxE6FQkKaKC4jphEe4=
 			</data>
 		</dict>
 		<key>Modules/SASDisplayKit.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
@@ -745,28 +745,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			wd6RE5zQHmqsuz8UAEMrtz6O2mlCRgM16U1iQUeh2w8=
+			w92Hf+3Woy0E3Hoxxzw5XcyffDaCugJXfzVJqUeOG9M=
 			</data>
 		</dict>
 		<key>Modules/SASDisplayKit.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			yp4dCVlcMp/7Hj2D9jC7Dj4VHKVPE7HQ9dCFZZnSIrA=
+			23dLPP6jewj7AXrIqBxGNvOsluD8hSQOKLhtrjwAFkw=
 			</data>
 		</dict>
 		<key>Modules/SASDisplayKit.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			wd6RE5zQHmqsuz8UAEMrtz6O2mlCRgM16U1iQUeh2w8=
+			w92Hf+3Woy0E3Hoxxzw5XcyffDaCugJXfzVJqUeOG9M=
 			</data>
 		</dict>
 		<key>Modules/SASDisplayKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			eYKPPoEATLMo9xyLSsX1KSHLxfpVehZQUxF6uOBPCxc=
+			fSheib0PDZ7dN4BzXsgICAFrHv8eCPE5nfoMQmBxCw8=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

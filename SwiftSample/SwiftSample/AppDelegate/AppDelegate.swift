@@ -14,10 +14,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         
         // -----------------------------------------------
-        // Smart Display SDK Configuration
+        // Equativ Display SDK Configuration
         // -----------------------------------------------
         
-        // The site ID must be set before using the SDK, otherwise no ad will be retrieved.
+        // The Equativ Display SDK must be configured before loading any ad.
         SASConfiguration.shared.configure()
         
         // Enabling logging can be useful to get informations if ads are not displayed properly.
