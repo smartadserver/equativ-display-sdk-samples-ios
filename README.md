@@ -4,14 +4,12 @@ This repository contains sample applications demonstrating how to integrate the 
 
 Those samples are dedicated to the new _Equativ Display SDK **v8.0**_.
 
-Please note that the _Equativ Display SDK **v8.0**_ is a total overhaul of the _Smart Display SDK **v7.x**_, and its feature set is not full yet.
-
 ## Requirements
 
-* A _Smart AdServer_ account
+* An _Equativ_ account
 * _Xcode 15.0_ or higher
-* _iOS 12.0_ or higher
-* Cocoapods or Swift Package Manager
+* _iOS 13.0_ or higher
+* Swift Package Manager
 
 ## Installation
 

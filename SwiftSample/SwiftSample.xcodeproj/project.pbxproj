@@ -186,7 +186,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1500;
-				LastUpgradeCheck = 1500;
+				LastUpgradeCheck = 2600;
 				TargetAttributes = {
 					7E8E6BAA2AD6D0B400C82325 = {
 						CreatedOnToolsVersion = 15.0;
@@ -475,7 +475,7 @@
 			repositoryURL = "https://github.com/smartadserver/swift-package-manager-display-sdk.git";
 			requirement = {
 				kind = exactVersion;
-				version = 8.6.0;
+				version = 8.6.1;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
